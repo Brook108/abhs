@@ -1,0 +1,155 @@
+import requests
+from collections import OrderedDict
+import json
+import os
+import cairosvg
+from collections import defaultdict
+from docx import Document
+
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
+
+method_id_map = {}
+method_order_dict = OrderedDict()
+def get_method_map():
+    file_path = "call.json"
+    with open(file_path) as file:
+         data = json.load(file)
+
+    for node in data['nodes']:
+        label = node['label']
+        method_id_map[node['id']] = label
+        #print(node['id'], " -> ", label)
+
+
+    for edge in data["edges"]:
+        #source = method_id_map[edge['source']]
+        #target = method_id_map[edge['target']]
+        source = edge['source']
+        target = edge['target']
+        if method_order_dict.get(source) is None:
+            method_order_dict[source] = []
+
+        method_order_dict[source].append(target)
+
+
+
+    index = 0
+    for key, value in method_order_dict.items():
+        print("key0:", key, "value:",value, "len:", len(method_order_dict[key]))
+        #if len(method_order_dict[key]) > 1:
+
+    index +=1
+
+
+def request_svg2png(methodid):
+    cookies = {
+        'gdp_user_id': '31546220-86c6-407c-8449-3c79210299e0',
+        'UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_': 'v1Q9cyJQSDlNv',
+        'b3222f5ad5658c1a_gdp_cs1': 'lirr25286',
+        'b3222f5ad5658c1a_gdp_gio_id': 'lirr25286',
+        'SHIROSESSIONID': '26bb56f3-5de3-486c-9d27-2030e292bdef',
+        'projectId': 'c484ca9b20a44bf89561c62b36861731',
+        'vId': 'c484ca9b20',
+        'b3222f5ad5658c1a_gdp_esid': '94',
+    }
+
+    headers = {
+        'authority': 'blade.hundsun.com',
+        'accept': '*/*',
+        'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+        'cache-control': 'no-cache',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        # 'cookie': 'gdp_user_id=31546220-86c6-407c-8449-3c79210299e0; UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_=v1Q9cyJQSDlNv; b3222f5ad5658c1a_gdp_cs1=lirr25286; b3222f5ad5658c1a_gdp_gio_id=lirr25286; SHIROSESSIONID=26bb56f3-5de3-486c-9d27-2030e292bdef; projectId=c484ca9b20a44bf89561c62b36861731; vId=c484ca9b20; b3222f5ad5658c1a_gdp_esid=94',
+        'origin': 'https://blade.hundsun.com',
+        'pragma': 'no-cache',
+        'referer': 'https://blade.hundsun.com/zoa/traceability/303955/' + methodid + '/308513/4',
+        'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        'x-requested-with': 'XMLHttpRequest',
+    }
+
+    data = {
+        'sessionID': '{"cookie":{"originalMaxAge":null,"expires":null,"httpOnly":true,"path":"/"},"user":{"userid":4}}',
+        'type': '10',
+        'clientwidth': '1538',
+        'clientheight': '421',
+        'isprojectable': '1',
+        'methodID': methodid,
+        'testcaseId': '0',
+        'verId': '303955##308513',
+    }
+
+    response = requests.post('https://blade.hundsun.com/zoa/getSvgByMethodByForwardTrace', cookies=cookies, headers=headers, data=data)
+
+    data = json.loads(response.text)
+    svg_data = data["svgStr"]["info"]
+    methodID = data["methodid"]
+    print(response)
+    filename  = methodID + "_svg"
+    file = open(filename, 'w')
+    file.write(svg_data)
+    file.close()
+    png_fname = filename + ".png"
+    cairosvg.svg2png(url=filename, write_to=png_fname)
+
+    return png_fname
+
+def main2():
+    get_method_map()
+
+    pdf = canvas.Canvas('analysis.pdf', pagesize=letter)
+    for key, value in method_order_dict.items():
+        png_fname = key[2:] + "_svg.png"
+        file_path = os.path.join("./", png_fname); 
+        if os.path.exists(file_path):
+            print(png_fname, " is exists!")
+        else:
+            png_fname = request_svg2png(key[2:])
+
+        #print(key, "->", value)
+        vs = method_id_map[key]
+        for v in value :
+            vs = vs + " -> " + method_id_map[v]
+        pdf.drawString(100, 700, method_id_map[key])
+        pdf.drawString(100, 700, vs)
+        pdf.drawInlineImage(png_fname, 100, 400)
+
+    pdf.save()
+
+def main():
+    get_method_map()
+
+'''
+    document = Document()
+    document.add_heading('ReqOrderInsert', 0)
+    i = 0
+    for key, value in method_order_dict.items():
+        png_fname = key[2:] + "_svg.png"
+        file_path = os.path.join("./", png_fname); 
+        if os.path.exists(file_path):
+            print(png_fname, " is exists!")
+        else:
+            png_fname = request_svg2png(key[2:])
+        print(key, "->", value)
+        document.add_heading(method_id_map[key], 1)
+        vs = method_id_map[key]
+        for v in value :
+            vs = vs + " -> " + method_id_map[v]
+
+        document.add_paragraph(vs)
+        document.add_picture(png_fname)
+        print("add ", key, " to file")
+        print("add ", vs, " to file")
+        print("add ", png_fname," to file")
+
+    document.save("覆盖率分析.docx")
+'''
+
+if __name__ == "__main__":
+    main()
