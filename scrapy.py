@@ -59,7 +59,7 @@ def get_dir_list():
     print("#response:", response.text)
     data = json.loads(response.text)
     for item in data['pathList']:
-        print(item)
+        print(item['pathName'])
 
 
 
