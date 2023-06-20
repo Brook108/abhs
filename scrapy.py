@@ -18,6 +18,51 @@ branches_num_map = {}
 img_url_base = "https://github.com/Brook108/md_img/blob/main/img/"
 repo_path = "/Users/xu/work/abhs"
 
+def method_call_chart(methodid):
+    cookies = {
+        'gdp_user_id': '31546220-86c6-407c-8449-3c79210299e0',
+        'b3222f5ad5658c1a_gdp_cs1': 'lirr25286',
+        'b3222f5ad5658c1a_gdp_gio_id': 'lirr25286',
+        'SHIROSESSIONID': '21261dbe-3a99-4db6-9cec-ebf94350de26',
+        'projectId': 'c484ca9b20a44bf89561c62b36861731',
+        'vId': 'c484ca9b20',
+        'UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_': 'v1Q9cyJQSDlNv',
+        'b3222f5ad5658c1a_gdp_session_id': '6935dd4a-8bd5-4c18-a44a-d7d6f0cf3cc5',
+        'b3222f5ad5658c1a_gdp_session_id_6935dd4a-8bd5-4c18-a44a-d7d6f0cf3cc5': 'true',
+        'b3222f5ad5658c1a_gdp_esid': '156',
+    }
+
+    headers = {
+        'authority': 'blade.hundsun.com',
+        'accept': '*/*',
+        'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+        'cache-control': 'no-cache',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        # 'cookie': 'gdp_user_id=31546220-86c6-407c-8449-3c79210299e0; b3222f5ad5658c1a_gdp_cs1=lirr25286; b3222f5ad5658c1a_gdp_gio_id=lirr25286; SHIROSESSIONID=21261dbe-3a99-4db6-9cec-ebf94350de26; projectId=c484ca9b20a44bf89561c62b36861731; vId=c484ca9b20; UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_=v1Q9cyJQSDlNv; b3222f5ad5658c1a_gdp_session_id=6935dd4a-8bd5-4c18-a44a-d7d6f0cf3cc5; b3222f5ad5658c1a_gdp_session_id_6935dd4a-8bd5-4c18-a44a-d7d6f0cf3cc5=true; b3222f5ad5658c1a_gdp_esid=156',
+        'origin': 'https://blade.hundsun.com',
+        'pragma': 'no-cache',
+        'referer': 'https://blade.hundsun.com/zoa/traceability/303955/2282/308513/4?cookie%5BoriginalMaxAge%5D=&cookie%5Bexpires%5D=&cookie%5BhttpOnly%5D=true&cookie%5Bpath%5D=%2F&productId=c484ca9b20a44bf89561c62b36861731&product=AMUST3.0&round=AMUST3.0-STOCKV202201.06.000.LS&versionId=303955&dataType=4&baseVersionId=308513&packageName=tradestock*stock*Sources*ust*biz_func&className=ust_stock_func_entry.cpp&projectID=4380&subSysVersion=%40subSysStr&microServers=%40microServers&proflag=1&type=0',
+        'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        'x-requested-with': 'XMLHttpRequest',
+    }
+
+    data = {
+        'methodId': methodid,
+        'coverageType': '7',
+        'level': '1000',
+        'verId': '303955##308513',
+    }
+
+    response = requests.post('https://blade.hundsun.com/zoa/pageShowMethodCallChart', cookies=cookies, headers=headers, data=data)
+    file = open (reqData.en_file, 'w')
+    f.write(response.text)
+    f.close()
 
 def push_git():
     try:
@@ -234,9 +279,13 @@ def get_picture_by_id(method_id, reqData):
         png_fname = request_svg2png(method_id[2:], reqData)
     return png_fname
 
+#2282
 def ProcessReqOrderInsert():
     reqData = InterfaceData()
     reqData.en_file= "./ReqOrderInsert.json"
+    if not os.path.exists(reqData.en_file):
+        method_call_chart('2282')
+
     reqData.img_path= "ReqOrderInsert_Img"
     os.makedirs(reqData.img_path, exist_ok=True)
     method_map(reqData )
@@ -280,7 +329,7 @@ def ProcessReqETFOrderInsert():
     with open('覆盖率统计_ReqETFOrderInsert.md', 'w') as file:
         file.write(markdown.markdown(reqData.markdown_content,extensions=['markdown.extensions.toc']))
 
-
+# ReqOrderInsert : 2282
 def main():
     load_branches_num()
     ProcessReqOrderInsert()
