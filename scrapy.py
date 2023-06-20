@@ -135,7 +135,7 @@ def preorder_traversal(tree, node, reqData):
     reqData.markdown_content += coverage_info
     reqData.markdown_content += "调用链：" + "\n"
     reqData.markdown_content += method_name+'()->' + method_str + "<br>"
-    reqData.markdown_content += "![Alt Text](" + img_url_base + reqData.img_path + "/" + pngfname + "?raw=true)"  + "\n"
+    reqData.markdown_content += "![Alt Text](" + img_url_base + reqData.img_path + "/?raw=true)"  + "\n"
 
     print("picture name: ", pngfname)
     for child in tree.successors(node):
@@ -237,7 +237,7 @@ def get_picture_by_id(method_id, reqData):
 def ProcessReqOrderInsert():
     reqData = InterfaceData()
     reqData.en_file= "./ReqOrderInsert.json"
-    reqData.img_path= "./ReqOrderInsert_Img"
+    reqData.img_path= "ReqOrderInsert_Img"
     os.makedirs(reqData.img_path, exist_ok=True)
     method_map(reqData )
     #print("#edges: ", method_order_dict)
