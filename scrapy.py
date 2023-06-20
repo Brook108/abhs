@@ -18,6 +18,47 @@ branches_num_map = {}
 img_url_base = "https://github.com/Brook108/md_img/blob/main/img/"
 repo_path = "/Users/xu/work/abhs"
 
+def get_dir_list():
+    cookies = {
+        'gdp_user_id': '31546220-86c6-407c-8449-3c79210299e0',
+        'b3222f5ad5658c1a_gdp_cs1': 'lirr25286',
+        'b3222f5ad5658c1a_gdp_gio_id': 'lirr25286',
+        'SHIROSESSIONID': '21261dbe-3a99-4db6-9cec-ebf94350de26',
+        'projectId': 'c484ca9b20a44bf89561c62b36861731',
+        'vId': 'c484ca9b20',
+        'UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_': 'v1Q9cyJQSDlNv',
+        'b3222f5ad5658c1a_gdp_esid': '156',
+    }
+    
+    headers = {
+        'authority': 'blade.hundsun.com',
+        'accept': '*/*',
+        'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+        'cache-control': 'no-cache',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        # 'cookie': 'gdp_user_id=31546220-86c6-407c-8449-3c79210299e0; b3222f5ad5658c1a_gdp_cs1=lirr25286; b3222f5ad5658c1a_gdp_gio_id=lirr25286; SHIROSESSIONID=21261dbe-3a99-4db6-9cec-ebf94350de26; projectId=c484ca9b20a44bf89561c62b36861731; vId=c484ca9b20; UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_=v1Q9cyJQSDlNv; b3222f5ad5658c1a_gdp_esid=156',
+        'origin': 'https://blade.hundsun.com',
+        'pragma': 'no-cache',
+        'referer': 'https://blade.hundsun.com/zoa/projectVersion/Incumulate/4/c484ca9b20a44bf89561c62b36861731/AMUST3.0/AMUST3.0-STOCKV202201.06.000.LS/@subSysStr/303955/308513/4380/@microServers/1',
+        'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        'x-requested-with': 'XMLHttpRequest',
+    }
+    
+    data = {
+        'sessionID': '{"cookie":{"originalMaxAge":null,"expires":null,"httpOnly":true,"path":"/"},"productId":"c484ca9b20a44bf89561c62b36861731","product":"AMUST3.0","round":"AMUST3.0-STOCKV202201.06.000.LS","versionId":"303955","dataType":"4","baseVersionId":"308513","projectID":"4380","type":"0","subSysVersion":"@subSysStr","microServers":"@microServers","proflag":"1"}',
+    }
+    
+    response = requests.post('https://blade.hundsun.com/zoa/gethundSunPackageCov', cookies=cookies, headers=headers, data=data)
+
+    print("#response:", response.text)
+
+
 def method_call_chart(methodid):
     cookies = {
         'gdp_user_id': '31546220-86c6-407c-8449-3c79210299e0',
@@ -316,6 +357,28 @@ def ProcessReqOrderAction():
         file.write(markdown.markdown(reqData.markdown_content,extensions=['markdown.extensions.toc']))
 
 def ProcessReqETFOrderInsert():
+    reqData = InterfaceData()
+    reqData.en_file= "./ReqETFOrderInsert.json"
+    if not os.path.exists(reqData.en_file):
+        method_call_chart('2282')
+
+    reqData.img_path= "ReqOrderInsert_Img"
+    os.makedirs(reqData.img_path, exist_ok=True)
+    method_map(reqData )
+    #print("#edges: ", method_order_dict)
+    #print("#id method map:", id_methodname_map)
+    tree = convert_to_tree(reqData.method_order_dict)
+    root = [node for node in tree.nodes if tree.in_degree(node) == 0][0]
+    preorder_traversal(tree, root, reqData)
+
+
+    reqData.markdown_content +=  "##总分支数：" + str(reqData.total_branches_num) + "\n"
+    reqData.markdown_content += "##已覆盖分支数：" + str(reqData.total_covered_branches_num) + "\n"
+    with open('覆盖率统计_ReqOrderInsert.md', 'w') as file:
+        file.write(markdown.markdown(reqData.markdown_content,extensions=['markdown.extensions.toc']))
+
+
+
     reqData = InterfaceData()
     reqData.en_file = "./ReqETFOrderInsert.json"
     method_map(reqData)
