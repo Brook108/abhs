@@ -1,14 +1,12 @@
 import time
+import subprocess
 from cairosvg import surface
 import networkx as nx
 import requests
 import matplotlib.pyplot as plt
-from collections import OrderedDict
 import json
 import os
 import cairosvg
-from collections import defaultdict
-
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 import markdown
@@ -18,7 +16,26 @@ branches_num_map = {}
 
 
 img_url_base = "https://github.com/Brook108/md_img/blob/main/img/"
+repo_path = "/Users/xu/work/abhs"
 
+
+def push_git():
+    try:
+        os.chdir(repo_path)
+        subprocess.run(["git", "add", "."])
+
+        subprocess.run(["git", "commit", "-m", "by python code"])
+
+        subprocess.run(["git", "push"])
+
+    except subprocess.CalledProcessError as e:
+        print("An error occurred while executing Git command:", e)
+
+    except OSError as e:
+        print("An OS-related error occurred:", e)
+
+    except Exception as e:
+        print("An unexpected error occurred:", e)
 
 def convert_to_tree(graph_text):
     # Create an empty directed graph
@@ -88,8 +105,8 @@ def load_branches_num():
         # Assign branches_num to the corresponding key in the branches_num_map
         branches_num_map[key] = str(branches_num) + ":" + str(branches_covered_num)
 
-    for key ,value in  branches_num_map.items():
-        print("num map ", key, value)
+    #for key ,value in  branches_num_map.items():
+    #    print("num map ", key, value)
 
 
 def preorder_traversal(tree, node, reqData):
@@ -118,8 +135,9 @@ def preorder_traversal(tree, node, reqData):
     reqData.markdown_content += coverage_info
     reqData.markdown_content += "调用链：" + "\n"
     reqData.markdown_content += method_name+'()->' + method_str + "<br>"
-    reqData.markdown_content += "![Alt Text](" + img_url_base + reqData.img_path + "/" + pngfname + "raw=true)"  + "\n"
+    reqData.markdown_content += "![Alt Text](" + img_url_base + reqData.img_path + "/" + pngfname + "?raw=true)"  + "\n"
 
+    print("picture name: ", pngfname)
     for child in tree.successors(node):
         preorder_traversal(tree, child, reqData)
 
@@ -220,6 +238,7 @@ def ProcessReqOrderInsert():
     reqData = InterfaceData()
     reqData.en_file= "./ReqOrderInsert.json"
     reqData.img_path= "./ReqOrderInsert_Img"
+    os.makedirs(reqData.img_path, exist_ok=True)
     method_map(reqData )
     #print("#edges: ", method_order_dict)
     #print("#id method map:", id_methodname_map)
@@ -267,6 +286,7 @@ def main():
     ProcessReqOrderInsert()
     #ProcessReqETFOrderInsert()
     #ProcessReqOrderAction()
+    push_git()
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,3211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="377.472mm" height="713.669mm"
+ viewBox="0 0 1070 2023"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Function ID:2777</title>
+<desc>An SVG drawing created by the SVG Generator function coverage visiable svg.</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="0" width="105" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29291</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2146~2147</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="0" width="556" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >int32_t CNewStockOrderInsertFlow::InsertEntrust(uint32_t nBathcNo, uint32_t&amp; nEntrustIndex)</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="31" width="105" height="52"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,32.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29293</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2147~2150</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="31" width="610" height="52"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,32.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  lpContext-&gt;m_pDataImpl-&gt;m_TimeMonitor.ThreadAddRecordL2Tag(this-&gt;m_lpContext-&gt;GetThreadNo(), 117);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  CSerialInfo* pSerial = lpContext-&gt;m_pDataImpl-&gt;GetSerialInfo();</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffef0b" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="83" width="578" height="77"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="83" width="105" height="77"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,83.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,83.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,83.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29294</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="26" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2150~2151</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,83.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,83.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,83.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,83.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="160" width="105" height="39"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,161.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,161.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29295</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2151~2153</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,161.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="160" width="304" height="39"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,161.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,161.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  {</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >    m_nEntrustNo = pSerial-&gt;GetEntrustSerialNo();</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,161.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffef0b" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="199" width="362" height="77"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="199" width="105" height="77"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,199.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,199.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,199.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29296</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="26" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2153~2154</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,199.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,199.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,199.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,199.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#e85940" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="276" width="105" height="117"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,277.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,277.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29297</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2154~2162</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,277.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#e85940" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="276" width="820" height="117"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,277.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,277.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >    {</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      m_nErrorNo = ERR_USER_ADD_TABLERECORD_FAIL;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      AMUST_LOGBIZERR_RETURN(lpContext, m_nErrorNo, &quot;新增委托序号失败&quot;,</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      wrap(&quot;CombiId&quot;, m_stStockPublicContext.pCombi-&gt;m_stCombiField.CombiID),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      wrap(&quot;StockCode&quot;, m_stStockPublicContext.pStockCode-&gt;m_stCodeField.StockCode),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      wrap(&quot;OrderVolume&quot;, m_stStockPublicContext.nOrderVolume),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      wrap(&quot;OrderPrice&quot;, ConvertDouble(m_stStockPublicContext.nOrderPrice, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), PRICE_DECIMAL_DIGIT)</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      );</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >    }</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,277.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="393" width="105" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,394.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,394.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29299</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2162~2163</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,394.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="393" width="28" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,394.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,394.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  }</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,394.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="424" width="105" height="182"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,425.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,425.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29301</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2163~2178</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,425.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="424" width="802" height="182"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,425.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,425.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  int iError = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  CStockEntrust* pEntrust = lpContext-&gt;m_pDataImpl-&gt;NewStockEntrust(pSerial, m_nEntrustNo, nEntrustIndex);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  CHECK_BIZ_OBJ_ADD_FAIL(pEntrust, m_nErrorNo, &quot;新增委托记录失败&quot;,</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;CombiId&quot;, m_stStockPublicContext.pCombi-&gt;m_stCombiField.CombiID),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;StockCode&quot;, m_stStockPublicContext.pStockCode-&gt;m_stCodeField.StockCode),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;OrderVolume&quot;, m_stStockPublicContext.nOrderVolume),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;OrderPrice&quot;, ConvertDouble(m_stStockPublicContext.nOrderPrice, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), PRICE_DECIMAL_DIGIT),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;EntrustNo&quot;, m_nEntrustNo),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;EntrustReference&quot;, m_stStockPublicContext.EntrustReference));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  lpContext-&gt;m_pDataImpl-&gt;m_TimeMonitor.ThreadAddRecordL2Tag(this-&gt;m_lpContext-&gt;GetThreadNo(), 118);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //将本笔委托插入到批号内</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  iError = pSerial-&gt;BatchBindEntrust(nBathcNo, pEntrust, nEntrustIndex, CNST_MACHINE_MAIN);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  lpContext-&gt;m_pDataImpl-&gt;m_TimeMonitor.ThreadAddRecordL2Tag(lpContext-&gt;GetThreadNo(), 119);</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,425.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffef0b" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="606" width="296" height="77"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="606" width="105" height="77"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,606.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,606.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,606.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29302</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="26" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2178~2179</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,606.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,606.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,606.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,606.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#e85940" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="683" width="105" height="52"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,684.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,684.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29303</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2179~2182</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,684.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#e85940" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="683" width="896" height="52"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,684.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,684.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  {</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >    m_nErrorNo = ERR_USER_TABLERECORD_NOTEXISTS;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >    AMUST_LOGBIZERR_RETURN(lpContext, ERR_USER_TABLERECORD_NOTEXISTS,&quot;委托绑定批号失败&quot;,wrap(&quot;nBathcNo&quot;, nBathcNo),wrap(&quot;nEntrustNo&quot;, m_nEntrustNo));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  }</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,684.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="735" width="105" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,736.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,736.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29305</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2182~2183</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,736.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="735" width="20" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,736.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,736.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="766" width="810" height="108"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="766" width="105" height="108"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,766.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,766.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,766.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29306</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="26" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2183~2184</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,766.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,766.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,766.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,766.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="874" width="105" height="39"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,875.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,875.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29307</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2184~2186</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,875.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="874" width="604" height="39"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,875.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,875.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  {</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >    m_stStockPublicContext.pSession-&gt;AddEntrust(m_stStockPublicContext.EntrustReference, pEntrust);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  }</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,875.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="913" width="105" height="689"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,914.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,914.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29309</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2186~2243</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,914.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="913" width="964" height="689"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,914.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,914.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  lpContext-&gt;m_pDataImpl-&gt;m_TimeMonitor.ThreadAddRecordL2Tag(this-&gt;m_lpContext-&gt;GetThreadNo(), 120);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //插入挂单列表</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  lpContext-&gt;m_pDataImpl-&gt;m_mapStockPendingOrder.insert(std::pair&lt;uint32_t, CStockEntrust*&gt;(m_nEntrustNo, pEntrust));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //m_pSerial-&gt;SetEntBatchNo(nBathcNo, pEntrust);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.EntrustNo = m_nEntrustNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.BatchNo = nBathcNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.FundIndex = m_stStockPublicContext.pFund-&gt;m_stFundField.GlobalIndex;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.AssetIndex = m_stStockPublicContext.pAsset-&gt;m_stAssetField.GlobalIndex;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.CombiIndex = m_stStockPublicContext.pCombi-&gt;m_stCombiField.GlobalIndex;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.InstanceIndex = m_stStockPublicContext.StrategyIndex;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  memcpy(pEntrust-&gt;m_stEntField.ExchangeType, m_stStockPublicContext.pStockCode-&gt;m_stCodeField.ExchangeType, sizeof(pEntrust-&gt;m_stEntField.ExchangeType));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.EntrustAmount = m_stStockPublicContext.nOrderVolume;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.OrderCommand = m_stStockPublicContext.nOrderCommand;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.EntrustBs = m_stStockPublicContext.cEntrustBs;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="163" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.EntrustDirection = m_stStockPublicContext.cEntrustBs - '0';</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.CurrDate = m_stStockPublicContext.mCurrDate;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="185" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.CurrTime = m_stStockPublicContext.mCurrTime;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="196" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.ConfirmTime = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="207" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.EntrustPrice = m_stStockPublicContext.nOrderPrice;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="218" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.EntrustBalance = m_stStockPublicContext.nOrderVolume * m_stStockPublicContext.nOrderPrice;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="229" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.ExchIndex = m_stStockPublicContext.nExchIndex;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="240" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.FrozenBalance = m_stStockPublicContext.nFrozenBalance;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="251" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.FrozenCommission = m_stStockPublicContext.nFrozenCommission;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="262" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.SessionNo = m_stStockPublicContext.nSessionIndex;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="273" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.TraderID = m_stStockPublicContext.pTrader-&gt;m_sTraderField.TraderID;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="284" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.SubscribeID = lpContext-&gt;m_pDataImpl-&gt;GetSubIdByConnectId(m_stStockPublicContext.nConnectID, m_stStockPublicContext.nApiConnectionID);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="295" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.ExternReportNo = m_stStockPublicContext.nExternReportNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="306" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.EntrustOrigin = m_stStockPublicContext.cEntrustOrigin;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="317" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  memcpy(pEntrust-&gt;m_stEntField.StockAccount, m_stStockPublicContext.pStockHolder-&gt;m_stStockHolder.StockAccount, sizeof(pEntrust-&gt;m_stEntField.StockAccount));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="328" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.StockCode = m_stStockPublicContext.nStockCode;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="339" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.EntrustReference = m_stStockPublicContext.EntrustReference;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="350" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.WithdrawAmount = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="361" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.BusinessAmount = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="372" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.BusinessBalance = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="383" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.EntrustType = CNST_ENTRUSTTYPE_NORMAL;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="394" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.ErrorNo = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="405" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.EntrustStatus = CNST_ENTRUSTSTATUS_NOREPORT;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="416" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.OrigEntrustNo = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="427" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.RecordNo = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="438" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.Busiflag = CNST_BUSINFLAG_BUYSALE;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="449" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  memcpy(pEntrust-&gt;m_stEntField.SeatNo, m_stStockPublicContext.pTradeSeat-&gt;m_stSeatField.SeatNo, sizeof(pEntrust-&gt;m_stEntField.SeatNo));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="460" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_stEntField.UnionRiskResult = CNST_UNION_RISK_NOT_REPLY;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="471" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_pAsset = m_stStockPublicContext.pAsset;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="482" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_pCombi = m_stStockPublicContext.pCombi;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="493" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_pHoldReal = m_stStockPublicContext.pStockHold;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="504" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_pStockCode = m_stStockPublicContext.pStockCode;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="515" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;pSecurityInfo = m_stStockPublicContext.m_pSecurityInfo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="526" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_pInstance = m_stStockPublicContext.pInstance;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="537" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_pStockHolder = m_stStockPublicContext.pStockHolder;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="548" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_pSeat = m_stStockPublicContext.pTradeSeat;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="559" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  pEntrust-&gt;m_pEntrustExpandInfo = nullptr;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="570" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_stStockPublicContext.pEntrust = pEntrust;</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,914.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffef0b" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="1602" width="530" height="77"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="1602" width="105" height="77"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,1602.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,1602.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,1602.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29310</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="26" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2243~2244</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,1602.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,1602.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,1602.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,1602.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="1679" width="105" height="65"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1680.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1680.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29311</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2244~2248</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1680.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="1679" width="652" height="65"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1680.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1680.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  {</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >    pEntrust-&gt;pRiskEntrust = m_stStockPublicContext.pRiskEntrust;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >    pEntrust-&gt;m_stEntField.RiskEntrustNo = m_stStockPublicContext.pRiskEntrust-&gt;m_stEntField.RiskEntrustNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >    m_stStockPublicContext.pRiskEntrust-&gt;m_pStockEntrust = pEntrust;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  }</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1680.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="1744" width="105" height="247"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1745.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1745.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29313</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2248~2269</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1745.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="1744" width="880" height="247"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1745.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1745.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  INFO_LOG(lpContext, &quot;插入委托表&quot;, wrap(&quot;AssetIndex&quot;, pEntrust-&gt;m_stEntField.AssetIndex),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;EntrustNo&quot;, pEntrust-&gt;m_stEntField.EntrustNo),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;BatchNo&quot;, pEntrust-&gt;m_stEntField.BatchNo),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;BusinessAmount&quot;, pEntrust-&gt;m_stEntField.BusinessAmount),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;BusinessBalance&quot;, ConvertDouble(pEntrust-&gt;m_stEntField.BusinessBalance, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), BALANCE_DECIMAL_DIGIT),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;CombiIndex&quot;, pEntrust-&gt;m_stEntField.CombiIndex),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;ConfirmTime&quot;, pEntrust-&gt;m_stEntField.ConfirmTime),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;EntrustAmount&quot;, pEntrust-&gt;m_stEntField.EntrustAmount),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;EntrustBs&quot;, pEntrust-&gt;m_stEntField.EntrustBs),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;ExchIndex&quot;, pEntrust-&gt;m_stEntField.ExchIndex),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;EntrustPrice&quot;, ConvertDouble(pEntrust-&gt;m_stEntField.EntrustPrice, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), PRICE_DECIMAL_DIGIT),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //wrap(&quot;EntrustReference&quot;, m_stContext.pEntrust-&gt;m_stEntField.EntrustReference),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;EntrustStatus&quot;, pEntrust-&gt;m_stEntField.EntrustStatus),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;StockCode&quot;, pEntrust-&gt;m_stEntField.StockCode),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="163" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;FrozenBalance&quot;, ConvertDouble(pEntrust-&gt;m_stEntField.FrozenBalance, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), BALANCE_DECIMAL_DIGIT),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;FrozenCommission&quot;, ConvertDouble(pEntrust-&gt;m_stEntField.FrozenCommission, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), BALANCE_DECIMAL_DIGIT),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="185" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  wrap(&quot;StockAccount&quot;, pEntrust-&gt;m_stEntField.StockAccount));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="196" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  lpContext-&gt;m_pDataImpl-&gt;m_TimeMonitor.ThreadAddRecordL2Tag(lpContext-&gt;GetThreadNo(), 121);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="207" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  return ERR_OK;</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1745.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="1991" width="105" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1992.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1992.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:29314</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:2269~2269</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1992.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="1991" width="16" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1992.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1992.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1992.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="88" width="44" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#759fcc" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="119" width="398" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="88" width="398" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="547" y="88" width="26" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="204" width="44" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#759fcc" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="235" width="182" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="204" width="182" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="331" y="204" width="26" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="611" width="44" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#759fcc" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="642" width="116" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="611" width="116" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="265" y="611" width="26" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="771" width="44" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#759fcc" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="802" width="320" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,226.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,226.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,226.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ff0000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,226.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#ff0000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >T</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,226.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,226.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,226.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,226.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffef0b" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="771" width="320" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="469" y="771" width="32" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#759fcc" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="501" y="802" width="278" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,568,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,568,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,568,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ff0000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,568,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#ff0000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >T</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,568,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,568,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,568,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,568,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="501" y="771" width="278" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#759fcc" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="833" width="630" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="779" y="771" width="26" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="105" y="1607" width="44" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#759fcc" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="1638" width="350" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="149" y="1607" width="350" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="499" y="1607" width="26" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >if (</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,246,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,246,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,246,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ff0000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,246,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#ff0000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >T</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,246,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,246,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,246,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,246,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,439,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,439,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,439,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >-</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,439,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,439,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,439,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,439,119.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >strcmp(lpContext-&gt;m_pDataImpl-&gt;GetSysParamVal(10000), &quot;0&quot;) == 0</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,547.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,547.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,547.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >)</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,547.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,547.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,547.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,547.5,88.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >if (</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,192,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,192,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,192,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >-</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,192,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,192,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,192,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,192,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,277,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,277,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,277,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ff0000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,277,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#ff0000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >F</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,277,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,277,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,277,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,277,235.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >unlikely(m_nEntrustNo &lt;= 0)</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,331.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,331.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,331.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >)</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,331.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,331.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,331.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,331.5,204.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >if (</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,175.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,175.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,175.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >-</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,175.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,175.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,175.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,175.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,227.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,227.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,227.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ff0000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,227.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#ff0000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >F</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,227.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,227.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,227.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,227.5,642.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >iError != ERR_OK</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,265.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,265.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,265.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >)</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,265.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,265.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,265.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,265.5,611.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >if (</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,380.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,380.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,380.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >-</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,380.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,380.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,380.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,380.5,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >likely(nullptr != m_stStockPublicContext.pSession)</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,469.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,469.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,469.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >&amp;&amp;</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,469.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,469.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,469.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,469.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,701,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,701,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,701,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ff0000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,701,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#ff0000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >F</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,701,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,701,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,701,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,701,802.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,501.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,501.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,501.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >m_stStockPublicContext.EntrustReference &gt; 0</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,501.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,501.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,501.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,501.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,304,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,304,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,304,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ff0000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,304,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#ff0000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >T</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,304,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,304,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,304,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,304,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,613,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,613,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,613,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ff0000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,613,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#ff0000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >F</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,613,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,613,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,613,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,613,833.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,779.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,779.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,779.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >)</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,779.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,779.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,779.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,779.5,771.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >if (</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,105.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,234,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,234,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,234,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ff0000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,234,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#ff0000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >T</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,234,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,234,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,234,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,234,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,403,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,403,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,403,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >-</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,403,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,403,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,403,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,403,1638.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >lpContext-&gt;m_pDataImpl-&gt;m_pRiskData-&gt;m_iRiskUpdate != 0</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,499.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,499.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,499.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >)</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,499.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,499.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,499.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,499.5,1607.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>
