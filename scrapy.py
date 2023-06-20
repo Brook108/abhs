@@ -57,6 +57,11 @@ def get_dir_list():
     response = requests.post('https://blade.hundsun.com/zoa/gethundSunPackageCov', cookies=cookies, headers=headers, data=data)
 
     print("#response:", response.text)
+    data = json.loads(response.text)
+    for item in data['pathList']:
+        print(item)
+
+
 
 
 def method_call_chart(methodid):
@@ -394,6 +399,7 @@ def ProcessReqETFOrderInsert():
 
 # ReqOrderInsert : 2282
 def main():
+    get_dir_list()
     load_branches_num()
     ProcessReqOrderInsert()
     #ProcessReqETFOrderInsert()
