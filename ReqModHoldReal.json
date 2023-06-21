@@ -1,0 +1,1 @@
+{"edges":[{"id":"E_0","source":"N_3825","target":"N_6598"}],"nodes":[{"baseVerId":"308513","cov":"0.00","id":"N_3825","interFunc":0,"label":"ReqModHoldReal_0.00%","methodId":"3825","verId":"303955"},{"baseVerId":"308513","cov":"--","id":"N_6598","interFunc":0,"label":"size_--","methodId":"6598","verId":"303955"}]}

@@ -17,6 +17,8 @@ branches_num_map = {}
 
 img_url_base = "https://github.com/Brook108/md_img/blob/main/img/"
 repo_path = "/Users/xu/work/abhs"
+id_path_func_dict = {}
+id_function_map_file = "01函数ID和函数名和对应.json"
 
 def get_function_list(dirname, filename):
     cookies = {
@@ -57,8 +59,11 @@ def get_function_list(dirname, filename):
     print("function list: ", response.text)
     data = json.loads(response.text)
     for item in data['methodList']:
-        print("function name: ", item['methodName'])
-    
+        print("function name: ", item['funcName'])
+        print("function id: ", item['funID'])
+        print("path: ", item['className'])
+        id_path_func_dict[item['funID']] = [item['className'].replace('*', '/'), '/' + item['funcName']]
+
 
 def get_file_list(dir_name):
     cookies = {
@@ -114,7 +119,7 @@ def get_dir_list():
         'UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_': 'v1Q9cyJQSDlNv',
         'b3222f5ad5658c1a_gdp_esid': '156',
     }
-    
+
     headers = {
         'authority': 'blade.hundsun.com',
         'accept': '*/*',
@@ -145,12 +150,15 @@ def get_dir_list():
         if item['pathName'] == '':
             continue
         print("dir name: ", item['pathName'])
-        #get_file_list(item['pathName'])
+        get_file_list(item['pathName'])
 
 
+    with open(id_function_map_file, "w") as file:
+        json.dump(id_path_func_dict, file)
 
+    file.close()
 
-def method_call_chart(methodid):
+def method_call_chart(methodid, filename):
     cookies = {
         'gdp_user_id': '31546220-86c6-407c-8449-3c79210299e0',
         'b3222f5ad5658c1a_gdp_cs1': 'lirr25286',
@@ -192,7 +200,7 @@ def method_call_chart(methodid):
     }
 
     response = requests.post('https://blade.hundsun.com/zoa/pageShowMethodCallChart', cookies=cookies, headers=headers, data=data)
-    file = open (reqData.en_file, 'w')
+    f = open (filename, 'w')
     f.write(response.text)
     f.close()
 
@@ -314,7 +322,7 @@ def preorder_traversal(tree, node, reqData):
     reqData.markdown_content += method_name+'()->' + method_str + "<br>"
     reqData.markdown_content += "![Alt Text](" + img_url_base + reqData.img_path + "/?raw=true)"  + "\n"
 
-    print("picture name: ", pngfname)
+    #print("picture name: ", pngfname)
     for child in tree.successors(node):
         preorder_traversal(tree, child, reqData)
 
@@ -326,7 +334,6 @@ def convert_to_tree(graph_text):
         tree.add_edges_from([(parent, child) for child in children])
 
     roots = [node for node in tree.nodes if tree.in_degree(node) == 0]
-
     root = roots[0]
 
     dfs_tree = nx.dfs_tree(tree, root)
@@ -335,9 +342,10 @@ def convert_to_tree(graph_text):
 
 def method_map(reqData):
 
-    f = open(reqData.en_file)
-    data = json.loads(f.read())
-    f.close()
+    with open(reqData.en_file, 'r') as file:
+        data = json.load(file)
+
+    #print("data:", data)
     for node in data['nodes']:
         label = node['label']
         reqData.id_methodname_map[node['id']] = label
@@ -353,29 +361,30 @@ def method_map(reqData):
 
         reqData.method_order_dict[source].append(target)
 
-
 def request_svg2png(methodid, reqData):
-
     cookies = {
         'gdp_user_id': '31546220-86c6-407c-8449-3c79210299e0',
-        'UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_': 'v1Q9cyJQSDlNv',
         'b3222f5ad5658c1a_gdp_cs1': 'lirr25286',
         'b3222f5ad5658c1a_gdp_gio_id': 'lirr25286',
+        'SHIROSESSIONID': '21261dbe-3a99-4db6-9cec-ebf94350de26',
         'projectId': 'c484ca9b20a44bf89561c62b36861731',
         'vId': 'c484ca9b20',
-        'SHIROSESSIONID': 'a53b75f4-d72e-4bff-8905-071829e9337d',
-        'b3222f5ad5658c1a_gdp_esid': '100',
+        'UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_': 'v1Q9cyJQSDlNv',
+        'b3222f5ad5658c1a_gdp_session_id': 'd211e445-102a-4260-911c-c8ac338e5fcb',
+        'b3222f5ad5658c1a_gdp_session_id_d211e445-102a-4260-911c-c8ac338e5fcb': 'true',
+        'b3222f5ad5658c1a_gdp_esid': '3',
     }
+    
     headers = {
         'authority': 'blade.hundsun.com',
         'accept': '*/*',
         'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
         'cache-control': 'no-cache',
         'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-        # 'cookie': 'gdp_user_id=31546220-86c6-407c-8449-3c79210299e0; UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_=v1Q9cyJQSDlNv; b3222f5ad5658c1a_gdp_cs1=lirr25286; b3222f5ad5658c1a_gdp_gio_id=lirr25286; projectId=c484ca9b20a44bf89561c62b36861731; vId=c484ca9b20; SHIROSESSIONID=a53b75f4-d72e-4bff-8905-071829e9337d; b3222f5ad5658c1a_gdp_esid=100',
+        # 'cookie': 'gdp_user_id=31546220-86c6-407c-8449-3c79210299e0; b3222f5ad5658c1a_gdp_cs1=lirr25286; b3222f5ad5658c1a_gdp_gio_id=lirr25286; SHIROSESSIONID=21261dbe-3a99-4db6-9cec-ebf94350de26; projectId=c484ca9b20a44bf89561c62b36861731; vId=c484ca9b20; UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_=v1Q9cyJQSDlNv; b3222f5ad5658c1a_gdp_session_id=d211e445-102a-4260-911c-c8ac338e5fcb; b3222f5ad5658c1a_gdp_session_id_d211e445-102a-4260-911c-c8ac338e5fcb=true; b3222f5ad5658c1a_gdp_esid=3',
         'origin': 'https://blade.hundsun.com',
         'pragma': 'no-cache',
-        'referer': 'https://blade.hundsun.com/zoa/traceability/303955/'+ methodid +'/308513/4?cookie%5BoriginalMaxAge%5D=&cookie%5Bexpires%5D=&cookie%5BhttpOnly%5D=true&cookie%5Bpath%5D=%2F&productId=c484ca9b20a44bf89561c62b36861731&product=AMUST3.0&round=AMUST3.0-STOCKV202201.06.000.LS&versionId=303955&dataType=4&baseVersionId=308513&packageName=tradestock*stock*Sources*ust*biz_func&className=ust_stock_func_entry.cpp&projectID=4380&subSysVersion=%40subSysStr&microServers=%40microServers&proflag=1&type=0',
+        'referer': 'https://blade.hundsun.com/zoa/traceability/303955/' +methodid + '/308513/4?cookie%5BoriginalMaxAge%5D=&cookie%5Bexpires%5D=&cookie%5BhttpOnly%5D=true&cookie%5Bpath%5D=%2F&productId=c484ca9b20a44bf89561c62b36861731&product=AMUST3.0&round=AMUST3.0-STOCKV202201.06.000.LS&versionId=303955&dataType=4&baseVersionId=308513&packageName=tradestock*stock*Sources*ust*biz_func&className=ust_stock_func_entry.cpp&projectID=4380&subSysVersion=%40subSysStr&microServers=%40microServers&proflag=1&type=0',
         'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"macOS"',
@@ -385,10 +394,14 @@ def request_svg2png(methodid, reqData):
         'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
         'x-requested-with': 'XMLHttpRequest',
     }
-    data = 'sessionID=%7B%22cookie%22%3A%7B%22originalMaxAge%22%3Anull%2C%22expires%22%3Anull%2C%22httpOnly%22%3Atrue%2C%22path%22%3A%22%2F%22%7D%2C%22productId%22%3A%22c484ca9b20a44bf89561c62b36861731%22%2C%22product%22%3A%22AMUST3.0%22%2C%22round%22%3A%22AMUST3.0-STOCKV202201.06.000.LS%22%2C%22versionId%22%3A%22303955%22%2C%22dataType%22%3A%224%22%2C%22baseVersionId%22%3A%22308513%22%2C%22packageName%22%3A%22tradestock*stock*Sources*ust*biz_func%22%2C%22className%22%3A%22ust_stock_func_entry.cpp%22%2C%22projectID%22%3A%224380%22%2C%22subSysVersion%22%3A%22%40subSysStr%22%2C%22microServers%22%3A%22%40microServers%22%2C%22proflag%22%3A%221%22%2C%22type%22%3A%220%22%2C%22user%22%3A%7B%22userid%22%3A4%7D%7D&type=10&clientwidth=1538&clientheight=60&isprojectable=1&methodID='+methodid+'&testcaseId=0&verId=303955%23%23308513'
+    
+    data = 'sessionID=%7B%22cookie%22%3A%7B%22originalMaxAge%22%3Anull%2C%22expires%22%3Anull%2C%22httpOnly%22%3Atrue%2C%22path%22%3A%22%2F%22%7D%2C%22productId%22%3A%22c484ca9b20a44bf89561c62b36861731%22%2C%22product%22%3A%22AMUST3.0%22%2C%22round%22%3A%22AMUST3.0-STOCKV202201.06.000.LS%22%2C%22versionId%22%3A%22303955%22%2C%22dataType%22%3A%224%22%2C%22baseVersionId%22%3A%22308513%22%2C%22packageName%22%3A%22tradestock*stock*Sources*ust*biz_func%22%2C%22className%22%3A%22ust_stock_func_entry.cpp%22%2C%22projectID%22%3A%224380%22%2C%22subSysVersion%22%3A%22%40subSysStr%22%2C%22microServers%22%3A%22%40microServers%22%2C%22proflag%22%3A%221%22%2C%22type%22%3A%220%22%2C%22user%22%3A%7B%22userid%22%3A4%7D%7D&type=10&clientwidth=1538&clientheight=60&isprojectable=1&methodID=' +methodid + '&testcaseId=0&verId=303955%23%23308513'
+    
 
     response = requests.post('https://blade.hundsun.com/zoa/getSvgByMethodByForwardTrace', cookies=cookies, headers=headers, data=data)
 
+    print(response.text)
+    print(methodid)
     data = json.loads(response.text.replace('times','Songti SC'))
     svg_data = data["svgStr"]["info"]
     methodID = data["methodid"]
@@ -406,91 +419,78 @@ def request_svg2png(methodid, reqData):
 def get_picture_by_id(method_id, reqData):
     png_fname = os.path.join(reqData.img_path, method_id[2:] + ".png")
     if os.path.exists(png_fname):
-        print(png_fname, " is exists!")
+        #print(png_fname, " is exists!")
+        pass
     else:
         png_fname = request_svg2png(method_id[2:], reqData)
     return png_fname
 
-#2282
-def ProcessReqOrderInsert():
+all_branches_num = 0
+all_covered_branches_num = 0
+def ProcessReqOrderInsert(funcid, interface_name):
+    global all_branches_num 
+    global all_covered_branches_num 
     reqData = InterfaceData()
-    reqData.en_file= "./ReqOrderInsert.json"
+    reqData.en_file= interface_name + ".json"
     if not os.path.exists(reqData.en_file):
-        method_call_chart('2282')
+        method_call_chart(funcid, reqData.en_file)
 
-    reqData.img_path= "ReqOrderInsert_Img"
+    reqData.img_path= interface_name + "_Img"
     os.makedirs(reqData.img_path, exist_ok=True)
-    method_map(reqData )
+
+    method_map(reqData)
+    #print("dict:", reqData.method_order_dict)
     #print("#edges: ", method_order_dict)
     #print("#id method map:", id_methodname_map)
-    tree = convert_to_tree(reqData.method_order_dict)
-    root = [node for node in tree.nodes if tree.in_degree(node) == 0][0]
-    preorder_traversal(tree, root, reqData)
+    if len(reqData.method_order_dict) != 0:
+        tree = convert_to_tree(reqData.method_order_dict)
+        root = [node for node in tree.nodes if tree.in_degree(node) == 0][0]
+        preorder_traversal(tree, root, reqData)
 
+    all_branches_num += reqData.total_branches_num
+    all_covered_branches_num += reqData.total_covered_branches_num
 
+    print("##接口：", interface_name )
+    print("  总分支数：" + str(reqData.total_branches_num))
+    print("  已覆盖分支数：" + str(reqData.total_covered_branches_num))
     reqData.markdown_content +=  "##总分支数：" + str(reqData.total_branches_num) + "\n"
     reqData.markdown_content += "##已覆盖分支数：" + str(reqData.total_covered_branches_num) + "\n"
-    with open('覆盖率统计_ReqOrderInsert.md', 'w') as file:
-        file.write(markdown.markdown(reqData.markdown_content,extensions=['markdown.extensions.toc']))
-
-def ProcessReqOrderAction():
-    reqData = InterfaceData()
-    reqData.en_file= "./ReqOrderAction.json"
-    method_map(reqData)
-    tree = convert_to_tree(reqData.method_order_dict)
-    root = [node for node in tree.nodes if tree.in_degree(node) == 0][0]
-    preorder_traversal(tree, root, reqData)
-
-
-    reqData.markdown_content +=  "##总分支数：" + str(reqData.total_branches_num) + "\n"
-    reqData.markdown_content += "##已覆盖分支数：" + str(reqData.total_covered_branches_num) + "\n"
-    with open('覆盖率统计_ReqOrderAction.md', 'w') as file:
-        file.write(markdown.markdown(reqData.markdown_content,extensions=['markdown.extensions.toc']))
-
-def ProcessReqETFOrderInsert():
-    reqData = InterfaceData()
-    reqData.en_file= "./ReqETFOrderInsert.json"
-    if not os.path.exists(reqData.en_file):
-        method_call_chart('2282')
-
-    reqData.img_path= "ReqOrderInsert_Img"
-    os.makedirs(reqData.img_path, exist_ok=True)
-    method_map(reqData )
-    #print("#edges: ", method_order_dict)
-    #print("#id method map:", id_methodname_map)
-    tree = convert_to_tree(reqData.method_order_dict)
-    root = [node for node in tree.nodes if tree.in_degree(node) == 0][0]
-    preorder_traversal(tree, root, reqData)
-
-
-    reqData.markdown_content +=  "##总分支数：" + str(reqData.total_branches_num) + "\n"
-    reqData.markdown_content += "##已覆盖分支数：" + str(reqData.total_covered_branches_num) + "\n"
-    with open('覆盖率统计_ReqOrderInsert.md', 'w') as file:
+    with open('覆盖率统计_' + interface_name + '.md', 'w') as file:
         file.write(markdown.markdown(reqData.markdown_content,extensions=['markdown.extensions.toc']))
 
 
+    print("all interface branches numbrer: ", all_branches_num)
+    print("all covered interface branches numbrer: ", all_covered_branches_num)
 
-    reqData = InterfaceData()
-    reqData.en_file = "./ReqETFOrderInsert.json"
-    method_map(reqData)
-    tree = convert_to_tree(reqData.method_order_dict)
-    root = [node for node in tree.nodes if tree.in_degree(node) == 0][0]
-    preorder_traversal(tree, root, reqData)
-
-
-    reqData.markdown_content +=  "##总分支数：" + str(reqData.total_branches_num) + "\n"
-    reqData.markdown_content += "##已覆盖分支数：" + str(reqData.total_covered_branches_num) + "\n"
-    with open('覆盖率统计_ReqETFOrderInsert.md', 'w') as file:
-        file.write(markdown.markdown(reqData.markdown_content,extensions=['markdown.extensions.toc']))
-
-# ReqOrderInsert : 2282
 def main():
-    get_dir_list()
+
+    target_interface_dict = {
+        "2289":['tradestock/stock/Sources/ust/biz_func/ust_stock_func_entry.cpp', 'ReqETFOrderInsert'],
+        "3825":['tradestock/stock/Sources/ust/api/api_impl/trade_api/stock_ust_api.h', 'ReqModHoldReal'],
+        "3822":['tradestock/stock/Sources/ust/api/api_impl/trade_api/stock_ust_api.h', 'ReqNewInstance'],
+        "2287":['tradestock/stock/Sources/ust/biz_func/ust_stock_func_entry.cpp', 'ReqOrderAction'],
+        "2282":['tradestock/stock/Sources/ust/biz_func/ust_stock_func_entry.cpp', 'ReqOrderInsert'],
+        "3823":['tradestock/stock/Sources/ust/api/api_impl/trade_api/stock_ust_api.h', 'ReqQryInstancePosition'],
+        "2848":['tradestock/stock/Sources/ust/query/ust_query.cpp', 'ReqQryOrder'],
+        "2847":['tradestock/stock/Sources/ust/query/ust_query.cpp', 'ReqQryPosition'],
+        "2849":['tradestock/stock/Sources/ust/query/ust_query.cpp', 'ReqQryTrade'],
+        "2846":['tradestock/stock/Sources/ust/query/ust_query.cpp', 'ReqQryTradingAccount'],
+        "3824":['tradestock/stock/Sources/ust/api/api_impl/trade_api/stock_ust_api.h', 'ReqUpdateInstancePosition'],
+        "3792":['tradestock/stock/Sources/ust/api/api_impl/trade_api/stock_ust_api.h', 'SubscribeTradeMsg']
+    }
+
+    if not os.path.exists(id_function_map_file):
+        get_dir_list()
+    else:
+        with open(id_function_map_file, "r") as file:
+            id_path_func_dict = json.load(file)
+
+
     load_branches_num()
-    ProcessReqOrderInsert()
-    #ProcessReqETFOrderInsert()
-    #ProcessReqOrderAction()
-    push_git()
+    for key, value in target_interface_dict.items():
+        print(key, value[1])
+        ProcessReqOrderInsert(key, value[1])
+    #push_git()
 
 if __name__ == "__main__":
     main()
