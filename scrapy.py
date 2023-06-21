@@ -142,7 +142,9 @@ def get_dir_list():
     print("#response:", response.text)
     data = json.loads(response.text)
     for item in data['pathList']:
-        print("dir list :", item['pathName'])
+        if item['pathName'] == '':
+            continue
+        print("dir name: ", item['pathName'])
         #get_file_list(item['pathName'])
 
 
