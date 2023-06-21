@@ -18,7 +18,49 @@ branches_num_map = {}
 img_url_base = "https://github.com/Brook108/md_img/blob/main/img/"
 repo_path = "/Users/xu/work/abhs"
 
-def get_file_list(file_list_info):
+def get_function_list(dirname, filename):
+    cookies = {
+        'gdp_user_id': '31546220-86c6-407c-8449-3c79210299e0',
+        'b3222f5ad5658c1a_gdp_cs1': 'lirr25286',
+        'b3222f5ad5658c1a_gdp_gio_id': 'lirr25286',
+        'SHIROSESSIONID': '21261dbe-3a99-4db6-9cec-ebf94350de26',
+        'projectId': 'c484ca9b20a44bf89561c62b36861731',
+        'vId': 'c484ca9b20',
+        'UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_': 'v1Q9cyJQSDlNv',
+        'b3222f5ad5658c1a_gdp_esid': '165',
+    }
+    
+    headers = {
+        'authority': 'blade.hundsun.com',
+        'accept': '*/*',
+        'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+        'cache-control': 'no-cache',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        # 'cookie': 'gdp_user_id=31546220-86c6-407c-8449-3c79210299e0; b3222f5ad5658c1a_gdp_cs1=lirr25286; b3222f5ad5658c1a_gdp_gio_id=lirr25286; SHIROSESSIONID=21261dbe-3a99-4db6-9cec-ebf94350de26; projectId=c484ca9b20a44bf89561c62b36861731; vId=c484ca9b20; UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_=v1Q9cyJQSDlNv; b3222f5ad5658c1a_gdp_esid=165',
+        'origin': 'https://blade.hundsun.com',
+        'pragma': 'no-cache',
+        'referer': 'https://blade.hundsun.com/zoa/projectVersion/Incumulate/4/c484ca9b20a44bf89561c62b36861731/AMUST3.0/AMUST3.0-STOCKV202201.06.000.LS/@subSysStr/303955/308513/4380/' + dirname + '/' + filename +'/@microServers/1',
+        'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        'x-requested-with': 'XMLHttpRequest',
+    }
+    
+    data = 'sessionID=%7B%22cookie%22%3A%7B%22originalMaxAge%22%3Anull%2C%22expires%22%3Anull%2C%22httpOnly%22%3Atrue%2C%22path%22%3A%22%2F%22%7D%2C%22productId%22%3A%22c484ca9b20a44bf89561c62b36861731%22%2C%22product%22%3A%22AMUST3.0%22%2C%22round%22%3A%22AMUST3.0-STOCKV202201.06.000.LS%22%2C%22versionId%22%3A%22303955%22%2C%22dataType%22%3A%224%22%2C%22baseVersionId%22%3A%22308513%22%2C%22packageName%22%3A%22'+dirname+'%22%2C%22className%22%3A%22'+ filename + '%22%2C%22projectID%22%3A%224380%22%2C%22subSysVersion%22%3A%22%40subSysStr%22%2C%22microServers%22%3A%22%40microServers%22%2C%22proflag%22%3A%221%22%2C%22type%22%3A%220%22%7D'
+    
+    response = requests.post('https://blade.hundsun.com/zoa/gethundSunMethodCov', cookies=cookies, headers=headers, data=data)
+
+    print("function list: ", response.text)
+    data = json.loads(response.text)
+    for item in data['methodList']:
+        print("function name: ", item['methodName'])
+    
+
+def get_file_list(dir_name):
     cookies = {
         'gdp_user_id': '31546220-86c6-407c-8449-3c79210299e0',
         'b3222f5ad5658c1a_gdp_cs1': 'lirr25286',
@@ -41,7 +83,7 @@ def get_file_list(file_list_info):
         # 'cookie': 'gdp_user_id=31546220-86c6-407c-8449-3c79210299e0; b3222f5ad5658c1a_gdp_cs1=lirr25286; b3222f5ad5658c1a_gdp_gio_id=lirr25286; SHIROSESSIONID=21261dbe-3a99-4db6-9cec-ebf94350de26; projectId=c484ca9b20a44bf89561c62b36861731; vId=c484ca9b20; UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_=v1Q9cyJQSDlNv; b3222f5ad5658c1a_gdp_session_id=128c183b-000b-4468-8f1e-f87787b62802; b3222f5ad5658c1a_gdp_session_id_128c183b-000b-4468-8f1e-f87787b62802=true; b3222f5ad5658c1a_gdp_esid=165',
         'origin': 'https://blade.hundsun.com',
         'pragma': 'no-cache',
-        'referer': 'https://blade.hundsun.com/zoa/projectVersion/Incumulate/4/c484ca9b20a44bf89561c62b36861731/AMUST3.0/AMUST3.0-STOCKV202201.06.000.LS/@subSysStr/303955/308513/4380/' + file_list_info + '/@microServers/1',
+        'referer': 'https://blade.hundsun.com/zoa/projectVersion/Incumulate/4/c484ca9b20a44bf89561c62b36861731/AMUST3.0/AMUST3.0-STOCKV202201.06.000.LS/@subSysStr/303955/308513/4380/' + dir_name + '/@microServers/1',
         'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"macOS"',
@@ -52,13 +94,14 @@ def get_file_list(file_list_info):
         'x-requested-with': 'XMLHttpRequest',
     }
     
-    data = 'sessionID=%7B%22cookie%22%3A%7B%22originalMaxAge%22%3Anull%2C%22expires%22%3Anull%2C%22httpOnly%22%3Atrue%2C%22path%22%3A%22%2F%22%7D%2C%22productId%22%3A%22c484ca9b20a44bf89561c62b36861731%22%2C%22product%22%3A%22AMUST3.0%22%2C%22round%22%3A%22AMUST3.0-STOCKV202201.06.000.LS%22%2C%22versionId%22%3A%22303955%22%2C%22dataType%22%3A%224%22%2C%22packageName%22%3A%22' + file_list_info + '%22%2C%22baseVersionId%22%3A%22308513%22%2C%22projectID%22%3A%224380%22%2C%22subSysVersion%22%3A%22%40subSysStr%22%2C%22microServers%22%3A%22%40microServers%22%2C%22proflag%22%3A%221%22%2C%22type%22%3A%220%22%7D'
+    data = 'sessionID=%7B%22cookie%22%3A%7B%22originalMaxAge%22%3Anull%2C%22expires%22%3Anull%2C%22httpOnly%22%3Atrue%2C%22path%22%3A%22%2F%22%7D%2C%22productId%22%3A%22c484ca9b20a44bf89561c62b36861731%22%2C%22product%22%3A%22AMUST3.0%22%2C%22round%22%3A%22AMUST3.0-STOCKV202201.06.000.LS%22%2C%22versionId%22%3A%22303955%22%2C%22dataType%22%3A%224%22%2C%22packageName%22%3A%22' + dir_name + '%22%2C%22baseVersionId%22%3A%22308513%22%2C%22projectID%22%3A%224380%22%2C%22subSysVersion%22%3A%22%40subSysStr%22%2C%22microServers%22%3A%22%40microServers%22%2C%22proflag%22%3A%221%22%2C%22type%22%3A%220%22%7D'
     
     response = requests.post('https://blade.hundsun.com/zoa/gethundSunClassCov', cookies=cookies, headers=headers, data=data)
     print("file list: ", response.text)
     data = json.loads(response.text)
     for item in data['fileList']:
-        print("file list: ", item['fileName'])
+        print("file name: ", item['fileName'])
+        get_function_list(dir_name, item['fileName'])
 
 def get_dir_list():
     cookies = {
@@ -100,7 +143,7 @@ def get_dir_list():
     data = json.loads(response.text)
     for item in data['pathList']:
         print("dir list :", item['pathName'])
-        get_file_list(item['pathName'])
+        #get_file_list(item['pathName'])
 
 
 
