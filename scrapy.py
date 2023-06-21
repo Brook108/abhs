@@ -18,7 +18,7 @@ branches_num_map = {}
 img_url_base = "https://github.com/Brook108/md_img/blob/main/img/"
 repo_path = "/Users/xu/work/abhs"
 
-def get_file_list(file_path_info):
+def get_file_list(file_list_info):
     cookies = {
         'gdp_user_id': '31546220-86c6-407c-8449-3c79210299e0',
         'b3222f5ad5658c1a_gdp_cs1': 'lirr25286',
@@ -41,7 +41,7 @@ def get_file_list(file_path_info):
         # 'cookie': 'gdp_user_id=31546220-86c6-407c-8449-3c79210299e0; b3222f5ad5658c1a_gdp_cs1=lirr25286; b3222f5ad5658c1a_gdp_gio_id=lirr25286; SHIROSESSIONID=21261dbe-3a99-4db6-9cec-ebf94350de26; projectId=c484ca9b20a44bf89561c62b36861731; vId=c484ca9b20; UqFC-yTtp36PRHYItgG2s3CcQP9YoNETJ4o_=v1Q9cyJQSDlNv; b3222f5ad5658c1a_gdp_session_id=128c183b-000b-4468-8f1e-f87787b62802; b3222f5ad5658c1a_gdp_session_id_128c183b-000b-4468-8f1e-f87787b62802=true; b3222f5ad5658c1a_gdp_esid=165',
         'origin': 'https://blade.hundsun.com',
         'pragma': 'no-cache',
-        'referer': 'https://blade.hundsun.com/zoa/projectVersion/Incumulate/4/c484ca9b20a44bf89561c62b36861731/AMUST3.0/AMUST3.0-STOCKV202201.06.000.LS/@subSysStr/303955/308513/4380/' + file_path_info + '/@microServers/1',
+        'referer': 'https://blade.hundsun.com/zoa/projectVersion/Incumulate/4/c484ca9b20a44bf89561c62b36861731/AMUST3.0/AMUST3.0-STOCKV202201.06.000.LS/@subSysStr/303955/308513/4380/' + file_list_info + '/@microServers/1',
         'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"macOS"',
@@ -52,10 +52,13 @@ def get_file_list(file_path_info):
         'x-requested-with': 'XMLHttpRequest',
     }
     
-    data = 'sessionID=%7B%22cookie%22%3A%7B%22originalMaxAge%22%3Anull%2C%22expires%22%3Anull%2C%22httpOnly%22%3Atrue%2C%22path%22%3A%22%2F%22%7D%2C%22productId%22%3A%22c484ca9b20a44bf89561c62b36861731%22%2C%22product%22%3A%22AMUST3.0%22%2C%22round%22%3A%22AMUST3.0-STOCKV202201.06.000.LS%22%2C%22versionId%22%3A%22303955%22%2C%22dataType%22%3A%224%22%2C%22packageName%22%3A%22' + file_path_info + '%22%2C%22baseVersionId%22%3A%22308513%22%2C%22projectID%22%3A%224380%22%2C%22subSysVersion%22%3A%22%40subSysStr%22%2C%22microServers%22%3A%22%40microServers%22%2C%22proflag%22%3A%221%22%2C%22type%22%3A%220%22%7D'
+    data = 'sessionID=%7B%22cookie%22%3A%7B%22originalMaxAge%22%3Anull%2C%22expires%22%3Anull%2C%22httpOnly%22%3Atrue%2C%22path%22%3A%22%2F%22%7D%2C%22productId%22%3A%22c484ca9b20a44bf89561c62b36861731%22%2C%22product%22%3A%22AMUST3.0%22%2C%22round%22%3A%22AMUST3.0-STOCKV202201.06.000.LS%22%2C%22versionId%22%3A%22303955%22%2C%22dataType%22%3A%224%22%2C%22packageName%22%3A%22' + file_list_info + '%22%2C%22baseVersionId%22%3A%22308513%22%2C%22projectID%22%3A%224380%22%2C%22subSysVersion%22%3A%22%40subSysStr%22%2C%22microServers%22%3A%22%40microServers%22%2C%22proflag%22%3A%221%22%2C%22type%22%3A%220%22%7D'
     
     response = requests.post('https://blade.hundsun.com/zoa/gethundSunClassCov', cookies=cookies, headers=headers, data=data)
     print("file list: ", response.text)
+    data = json.loads(response.text)
+    for item in data['fileList']:
+        print("file list: ", item['fileName'])
 
 def get_dir_list():
     cookies = {
