@@ -55,7 +55,7 @@ def get_file_list(file_path_info):
     data = 'sessionID=%7B%22cookie%22%3A%7B%22originalMaxAge%22%3Anull%2C%22expires%22%3Anull%2C%22httpOnly%22%3Atrue%2C%22path%22%3A%22%2F%22%7D%2C%22productId%22%3A%22c484ca9b20a44bf89561c62b36861731%22%2C%22product%22%3A%22AMUST3.0%22%2C%22round%22%3A%22AMUST3.0-STOCKV202201.06.000.LS%22%2C%22versionId%22%3A%22303955%22%2C%22dataType%22%3A%224%22%2C%22packageName%22%3A%22' + file_path_info + '%22%2C%22baseVersionId%22%3A%22308513%22%2C%22projectID%22%3A%224380%22%2C%22subSysVersion%22%3A%22%40subSysStr%22%2C%22microServers%22%3A%22%40microServers%22%2C%22proflag%22%3A%221%22%2C%22type%22%3A%220%22%7D'
     
     response = requests.post('https://blade.hundsun.com/zoa/gethundSunClassCov', cookies=cookies, headers=headers, data=data)
-    print("file list: ", response)
+    print("file list: ", response.text)
 
 def get_dir_list():
     cookies = {
