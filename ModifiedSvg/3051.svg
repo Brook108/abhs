@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="330.906mm" height="645.936mm"
+ viewBox="0 0 938 1831"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Function ID:3051</title>
+<desc>An SVG drawing created by the SVG Generator function coverage visiable svg.</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="0" width="93" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:34748</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:644~645</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="93" y="0" width="250" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >int32_t CETFOrderInsertFlow::CheckRisk()</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="31" width="93" height="1768"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,32.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:34750</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:645~796</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#69c70c" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="93" y="31" width="844" height="1768"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,32.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  int32_t iRet = ERR_OK;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //hh 暂时注释</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  #if 0</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //获取交易平台类型</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  if (m_stPublicContext.pExcharg-&gt;m_ExchangeIndex == 0)</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_stPublicContext.TradePlatForm = CNST_TRADE_PLATFORM_SH_BIDDING;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  else</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_stPublicContext.TradePlatForm = CNST_TRADE_PLATFORM_SZ_BIDDING;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  auto&amp; orderInfo = lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[0];</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="163" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //申购</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  if (m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan> == CNST_ENTRUSTDIR_APPLY)</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="185" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="196" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //等效于买入ETF合约,判风控</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="207" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.clear();</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="218" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iEntrust<tspan fill="red">Direction</tspan> = CNST_ENTRUSTDIR_BUY;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="229" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iOriginEntrust<tspan fill="red">Direction</tspan> = m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="240" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iPlatForm = m_stPublicContext.TradePlatForm;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="251" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iRiskEntrustNo = m_stPublicContext.nRiskEntrustNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="262" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_nErrorNo = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="273" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_n<tspan fill="red">OrderCommand</tspan> = m_stPublicContext.n<tspan fill="red">OrderCommand</tspan>;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="284" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pCombi = m_stPublicContext.pCombi;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="295" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pExcharg = m_stPublicContext.pExcharg;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="306" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pSeat = m_stPublicContext.pPositionSeat;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="317" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pSecurityInfo = m_stContext.pEtfBasicInfo-&gt;m_pSecurityInfo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="328" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pStockHolder = m_stPublicContext.pStockHolder;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="339" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pTrader = m_stPublicContext.pTrader;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="350" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_p<tspan fill="red">StockCode</tspan> = m_stContext.pEtfBasicInfo-&gt;m_p<tspan fill="red">StockCode</tspan>;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="361" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iContraReportNo = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="372" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iContraSysNo = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="383" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iReportNo = m_stPublicContext.nExternReportNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="394" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iSysNo = m_stPublicContext.nExternSysNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="405" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.mCurrDate = m_stPublicContext.CurrDate;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="416" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.mCurrTime = m_stPublicContext.CurrTime;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="427" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  // lpContext-&gt;GetDateTime(&amp;orderInfo.mCurrDate, &amp;orderInfo.mCurrTime);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="438" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_nErrorNo = RiskCheck(lpContext, 1);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="449" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  if (m_nErrorNo != ERR_OK)</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="460" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="471" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  return m_nErrorNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="482" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="493" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  if (m_stPublicContext.nSecurityType == CNST_STOCKKIND_GOLD_ETF_INDEX</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="504" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  || m_stPublicContext.nSecurityType == CNST_STOCKKIND_CROSS_BORDER_ETF_INDEX</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="515" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  || m_stPublicContext.nSecurityType == CNST_STOCKKIND_CURRENCY_ETF_INDEX</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="526" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  )</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="537" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="548" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //黄金 货币  跨境ETF没有成分股,无需做成分股风控校验</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="559" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="570" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  else</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="581" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="592" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //等效于买入ETF成分股,判风控</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="603" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iEntrust<tspan fill="red">Direction</tspan> = CNST_ENTRUSTDIR_SALE;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="614" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  int32_t i = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="625" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  for (auto&amp; etfStockDetail : m_stContext.pEtfBasicInfo-&gt;m_vecEtfStocklist)</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="636" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="647" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  if (etfStockDetail-&gt;m_pSecurityInfo == NULL)</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="658" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="669" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  continue;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="680" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="691" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pSecurityInfo = etfStockDetail-&gt;m_pSecurityInfo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="702" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  CExcharg* pExcharg = lpContext-&gt;GetExcharg(GetExchangeIndex(etfStockDetail-&gt;mstEtfStocklist.ExchangeTypeElement));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="713" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  CHECK_BIZ_OBJ_NOT_FOUND(pExcharg, &quot;找不到成分股交易市场对象 &quot;, &quot;ExchangeType:&quot;, wrap(etfStockDetail-&gt;mstEtfStocklist.ExchangeTypeElement));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="724" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_p<tspan fill="red">StockCode</tspan> = pExcharg-&gt;Get<tspan fill="red">StockCode</tspan>(atoi(etfStockDetail-&gt;mstEtfStocklist.SecurityCodeElement));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="735" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_RuleCalcResult.clear();</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="746" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_nErrorNo = RiskCheck(lpContext, 1);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="757" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  if (m_nErrorNo != ERR_OK)</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="768" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="779" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  return m_nErrorNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="790" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="801" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  ++i;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="812" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="823" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="834" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  return iRet;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="845" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="856" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //赎回</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="867" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  else</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="878" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="889" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //等效卖出入ETF合约,判风控</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="900" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.clear();</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="911" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iEntrust<tspan fill="red">Direction</tspan> = CNST_ENTRUSTDIR_SALE;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="922" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iOriginEntrust<tspan fill="red">Direction</tspan> = m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="933" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iPlatForm = m_stPublicContext.TradePlatForm;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="944" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iRiskEntrustNo = m_stPublicContext.nRiskEntrustNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="955" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_nErrorNo = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="966" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_n<tspan fill="red">OrderCommand</tspan> = m_stPublicContext.n<tspan fill="red">OrderCommand</tspan>;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="977" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pCombi = m_stPublicContext.pCombi;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="988" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pExcharg = m_stPublicContext.pExcharg;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="999" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pSeat = m_stPublicContext.pPositionSeat;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1010" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pSecurityInfo = m_stContext.pEtfBasicInfo-&gt;m_pSecurityInfo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1021" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pStockHolder = m_stPublicContext.pStockHolder;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1032" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pTrader = m_stPublicContext.pTrader;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1043" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_p<tspan fill="red">StockCode</tspan> = m_stContext.pEtfBasicInfo-&gt;m_p<tspan fill="red">StockCode</tspan>;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1054" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iContraReportNo = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1065" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iContraSysNo = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1076" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iReportNo = m_stPublicContext.nExternReportNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1087" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iSysNo = m_stPublicContext.nExternSysNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1098" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.mCurrDate = m_stPublicContext.CurrDate;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1109" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.mCurrTime = m_stPublicContext.CurrTime;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1120" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  // lpContext-&gt;GetDateTime(&amp;orderInfo.mCurrDate, &amp;orderInfo.mCurrTime);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1131" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_nErrorNo = RiskCheck(lpContext, 1);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1142" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  if (m_nErrorNo != ERR_OK)</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1153" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1164" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  return m_nErrorNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1175" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1186" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  if (m_stPublicContext.nSecurityType == CNST_STOCKKIND_GOLD_ETF_INDEX</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1197" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  || m_stPublicContext.nSecurityType == CNST_STOCKKIND_CROSS_BORDER_ETF_INDEX</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1208" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  || m_stPublicContext.nSecurityType == CNST_STOCKKIND_CURRENCY_ETF_INDEX</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1219" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  )</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1230" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1241" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //黄金 货币  跨境ETF没有成分股,无需做成分股风控校验</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1252" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1263" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  else</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1274" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1285" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //等效于买入ETF成分股,判风控</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1296" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_iEntrust<tspan fill="red">Direction</tspan> = CNST_ENTRUSTDIR_BUY;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1307" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  for (auto&amp; etfStockDetail : m_stContext.pEtfBasicInfo-&gt;m_vecEtfStocklist)</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1318" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1329" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_pSecurityInfo = etfStockDetail-&gt;m_pSecurityInfo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1340" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  CExcharg* pExcharg = lpContext-&gt;GetExcharg(GetExchangeIndex(etfStockDetail-&gt;mstEtfStocklist.ExchangeTypeElement));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1351" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  CHECK_BIZ_OBJ_NOT_FOUND(pExcharg, &quot;找不到成分股交易市场对象 &quot;, &quot;ExchangeType:&quot;, wrap(etfStockDetail-&gt;mstEtfStocklist.ExchangeTypeElement));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1362" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_p<tspan fill="red">StockCode</tspan> = pExcharg-&gt;Get<tspan fill="red">StockCode</tspan>(atoi(etfStockDetail-&gt;mstEtfStocklist.SecurityCodeElement));</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1373" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  orderInfo.m_RuleCalcResult.clear();</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1384" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_nErrorNo = RiskCheck(lpContext, 1);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1395" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  if (m_nErrorNo != ERR_OK)</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1406" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1417" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  return m_nErrorNo;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1428" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1439" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1450" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1461" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  return iRet;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1472" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1483" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  #endif</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1494" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  return iRet;</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="1799" width="93" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1800.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1800.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:34751</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:796~796</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1800.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="93" y="1799" width="16" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1800.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1800.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1800.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>
