@@ -145,7 +145,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //pstOrderField-&gt;pAssetday-&gt;EnableBalance -= pstOrderField-&gt;nFrozenBalance;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  m_nErrorNo = UpdateCashEnableValue(lpContext, m_stStockPublicContext.pAsset, m_stStockPublicContext.nExchIndex, CNST_STOCKKIND_STOCK_INDEX, m_stStockPublicContext.cEntrust<tspan fill="red">Direction</tspan>,</text>
+ >  m_nErrorNo = UpdateCashEnableValue(lpContext, m_stStockPublicContext.pAsset, m_stStockPublicContext.nExchIndex, CNST_STOCKKIND_STOCK_INDEX, m_stStockPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  CNST_BUSINPROTYPE_ENTRUST, CNST_CASH_TYPE_NO_DISTINCTION, m_stStockPublicContext.nFrozenBalance);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

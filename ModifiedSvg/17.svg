@@ -73,7 +73,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >int32_t CheckInsHoldEnable(CStockBizContext *lpContext, CInstanceHold *pInstanceHold, USTVolume &amp;nOccurAmount, UST<tspan fill="red">StockCode</tspan> &amp;n<tspan fill="red">StockCode</tspan>, USTNumID &amp;InstanceID, USTEntrust<tspan fill="red">Direction</tspan> Entrust<tspan fill="red">Direction</tspan>)</text>
+ >int32_t CheckInsHoldEnable(CStockBizContext *lpContext, CInstanceHold *pInstanceHold, USTVolume &amp;nOccurAmount, UST<tspan stroke="Red" fill="Blue">StockCode</tspan> &amp;n<tspan stroke="Red" fill="Blue">StockCode</tspan>, USTNumID &amp;InstanceID, USTEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1.5)"
@@ -289,7 +289,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    ///报错返回，可用持仓不足</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    AMUST_LOGBIZERR_RETURN(lpContext, ERR_INSTANCE_AMOUNT_NOTENOUGH, &quot;EnableAmount:0&quot;, wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;,n<tspan fill="red">StockCode</tspan>),</text>
+ >    AMUST_LOGBIZERR_RETURN(lpContext, ERR_INSTANCE_AMOUNT_NOTENOUGH, &quot;EnableAmount:0&quot;, wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;,n<tspan stroke="Red" fill="Blue">StockCode</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    wrap(&quot;InstanceID&quot;, InstanceID),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -365,9 +365,9 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  C<tspan fill="red">StockCode</tspan>* p<tspan fill="red">StockCode</tspan> = lpContext-&gt;m_pDataImpl-&gt;Get<tspan fill="red">StockCode</tspan>(pInstanceHold-&gt;m_stInsHoldField.ExchangeType,</text>
+ >  C<tspan stroke="Red" fill="Blue">StockCode</tspan>* p<tspan stroke="Red" fill="Blue">StockCode</tspan> = lpContext-&gt;m_pDataImpl-&gt;Get<tspan stroke="Red" fill="Blue">StockCode</tspan>(pInstanceHold-&gt;m_stInsHoldField.ExchangeType,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pInstanceHold-&gt;m_stInsHoldField.<tspan fill="red">StockCode</tspan>);</text>
+ >  pInstanceHold-&gt;m_stInsHoldField.<tspan stroke="Red" fill="Blue">StockCode</tspan>);</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,226.5)"
@@ -513,7 +513,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    AMUST_LOGBIZERR_RETURN(lpContext, ERR_USER_TABLERECORD_NOTEXISTS,&quot;证券代码信息不存在&quot;, wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, n<tspan fill="red">StockCode</tspan>));</text>
+ >    AMUST_LOGBIZERR_RETURN(lpContext, ERR_USER_TABLERECORD_NOTEXISTS,&quot;证券代码信息不存在&quot;, wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, n<tspan stroke="Red" fill="Blue">StockCode</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    return lpContext-&gt;m_nErrorNo;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -589,9 +589,9 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pInstanceHold-&gt;m_stInsHoldField.ExchangeType,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.StockType,</text>
+ >  p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.StockType,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.HzjyFlag, Entrust<tspan fill="red">Direction</tspan>);</text>
+ >  p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.HzjyFlag, Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  DEBUG_LOG_TRACE(&quot;INSTANCE EnableAmount=%ld\n&quot;, EnableAmount);</text>
 </g>
@@ -741,7 +741,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    ///报错返回，可用持仓不足</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    AMUST_LOGBIZERR_RETURN(lpContext, ERR_INSTANCE_AMOUNT_NOTENOUGH, wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, n<tspan fill="red">StockCode</tspan>),</text>
+ >    AMUST_LOGBIZERR_RETURN(lpContext, ERR_INSTANCE_AMOUNT_NOTENOUGH, wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, n<tspan stroke="Red" fill="Blue">StockCode</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    wrap(&quot;InstanceID&quot;, InstanceID),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1447,7 +1447,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >unlikely(nullptr == p<tspan fill="red">StockCode</tspan>)</text>
+ >unlikely(nullptr == p<tspan stroke="Red" fill="Blue">StockCode</tspan>)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,131.5,269.5)"

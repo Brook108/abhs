@@ -1317,7 +1317,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  if (m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan fill="red">Direction</tspan> == CNST_ENTRUSTDIR_BUY)</text>
+ >  if (m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> == CNST_ENTRUSTDIR_BUY)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1335,7 +1335,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="185" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  if (m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan fill="red">Direction</tspan> == CNST_ENTRUSTDIR_SALE)</text>
+ >  if (m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> == CNST_ENTRUSTDIR_SALE)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="196" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="207" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1985,7 +1985,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >pContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan fill="red">Direction</tspan> == CNST_ENTRUSTDIR_BUY)</text>
+ >pContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> == CNST_ENTRUSTDIR_BUY)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,137.5,217.5)"
@@ -2326,7 +2326,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >pContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan fill="red">Direction</tspan> == CNST_ENTRUSTDIR_SALE)</text>
+ >pContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> == CNST_ENTRUSTDIR_SALE)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,137.5,467.5)"

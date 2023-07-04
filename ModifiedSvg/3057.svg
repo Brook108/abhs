@@ -369,11 +369,11 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  sReportMsg.MsgHead.Token = m_stPublicContext.pAsset-&gt;m_stAssetField.GlobalIndex;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  sReportMsg.OrderWthdrw.ReportPrice = ConvertDouble(m_stPublicContext.n<tspan fill="red">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT);</text>
+ >  sReportMsg.OrderWthdrw.ReportPrice = ConvertDouble(m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  sReportMsg.OrderWthdrw.ReportAmount = m_stPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >  sReportMsg.OrderWthdrw.ReportAmount = m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  sReportMsg.OrderWthdrw.<tspan fill="red">OrderCommand</tspan> = 0;</text>
+ >  sReportMsg.OrderWthdrw.<tspan stroke="Red" fill="Blue">OrderCommand</tspan> = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  sReportMsg.OrderWthdrw.EntrustNo = m_stContext.pEntrust-&gt;m_stEntField.EntrustNo;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -381,13 +381,13 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  sReportMsg.OrderWthdrw.RecordNo = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(sReportMsg.OrderWthdrw.ExchangeType, m_stPublicContext.<tspan fill="red">ExchangeID</tspan>, sizeof (sReportMsg.OrderWthdrw.ExchangeType));</text>
+ >  memcpy(sReportMsg.OrderWthdrw.ExchangeType, m_stPublicContext.<tspan stroke="Red" fill="Blue">ExchangeID</tspan>, sizeof (sReportMsg.OrderWthdrw.ExchangeType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  sReportMsg.OrderWthdrw.EntrustType = CNST_ENTRUSTTYPE_NORMAL;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  sReportMsg.OrderWthdrw.BusinFlag = BusinFlag;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="163" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  sReportMsg.OrderWthdrw.EntrustBs = m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan> + '0' - 2; //申购传‘1’ 赎回传‘2’</text>
+ >  sReportMsg.OrderWthdrw.EntrustBs = m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> + '0' - 2; //申购传‘1’ 赎回传‘2’</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //上海 实物申赎：单市场、跨市场   现金申赎：跨境、黄金、货币</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="185" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -539,7 +539,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    sReportMsg.OrderWthdrw.ExecType = CNST_EXEC_TYPE_CASH;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    memcpy(sReportMsg.OrderWthdrw.<tspan fill="red">StockCode</tspan>, m_stContext.pEtfBasicInfo-&gt;m_stEtfBasicInfo.EtfCode2, sizeof(sReportMsg.OrderWthdrw.<tspan fill="red">StockCode</tspan>));</text>
+ >    memcpy(sReportMsg.OrderWthdrw.<tspan stroke="Red" fill="Blue">StockCode</tspan>, m_stContext.pEtfBasicInfo-&gt;m_stEtfBasicInfo.EtfCode2, sizeof(sReportMsg.OrderWthdrw.<tspan stroke="Red" fill="Blue">StockCode</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  }</text>
 </g>
@@ -679,7 +679,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    memcpy(sReportMsg.OrderWthdrw.<tspan fill="red">StockCode</tspan>, m_stPublicContext.pSecurityInfo-&gt;m_stSecurityInfo.SecurityCode, sizeof(sReportMsg.OrderWthdrw.<tspan fill="red">StockCode</tspan>));</text>
+ >    memcpy(sReportMsg.OrderWthdrw.<tspan stroke="Red" fill="Blue">StockCode</tspan>, m_stPublicContext.pSecurityInfo-&gt;m_stSecurityInfo.SecurityCode, sizeof(sReportMsg.OrderWthdrw.<tspan stroke="Red" fill="Blue">StockCode</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  }</text>
 </g>
@@ -1262,7 +1262,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(sReportMsg.OrderWthdrw.<tspan fill="red">SeatNo</tspan>, m_stPublicContext.pTraderSeat-&gt;m_stSeatField.<tspan fill="red">SeatNo</tspan>, sizeof (sReportMsg.OrderWthdrw.<tspan fill="red">SeatNo</tspan>));</text>
+ >  memcpy(sReportMsg.OrderWthdrw.<tspan stroke="Red" fill="Blue">SeatNo</tspan>, m_stPublicContext.pTraderSeat-&gt;m_stSeatField.<tspan stroke="Red" fill="Blue">SeatNo</tspan>, sizeof (sReportMsg.OrderWthdrw.<tspan stroke="Red" fill="Blue">SeatNo</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  memcpy(sReportMsg.OrderWthdrw.BranchFlag, m_stPublicContext.pTraderSeat-&gt;m_stSeatField.BranchFlag, sizeof (sReportMsg.OrderWthdrw.BranchFlag));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

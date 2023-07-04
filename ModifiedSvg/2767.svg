@@ -521,13 +521,13 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pRiskEntrust-&gt;m_stEntField.EntrustBs = m_stStockPublicContext.cEntrustBs;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pRiskEntrust-&gt;m_stEntField.EntrustPrice = m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan>;</text>
+ >  pRiskEntrust-&gt;m_stEntField.EntrustPrice = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pRiskEntrust-&gt;m_stEntField.<tspan fill="red">OrderCommand</tspan> = m_stStockPublicContext.n<tspan fill="red">OrderCommand</tspan>;</text>
+ >  pRiskEntrust-&gt;m_stEntField.<tspan stroke="Red" fill="Blue">OrderCommand</tspan> = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderCommand</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pRiskEntrust-&gt;m_stEntField.ContraOrderType = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pRiskEntrust-&gt;m_stEntField.<tspan fill="red">StockCode</tspan> = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>;</text>
+ >  pRiskEntrust-&gt;m_stEntField.<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pRiskEntrust-&gt;m_stEntField.OrderBalance = m_stStockPublicContext.nEntrustBalance;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -537,13 +537,13 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  m_stStockPublicContext.pRiskEntrust = pRiskEntrust;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="185" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  int exchargeIndex = GetExchangeIndex(m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.ExchangeType);</text>
+ >  int exchargeIndex = GetExchangeIndex(m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.ExchangeType);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="196" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  CSecurityInfo* pSecurityInfo = lpContext-&gt;m_pDataImpl-&gt;GetExcharg()[exchargeIndex].GetSecurityInfo(m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>Str);</text>
+ >  CSecurityInfo* pSecurityInfo = lpContext-&gt;m_pDataImpl-&gt;GetExcharg()[exchargeIndex].GetSecurityInfo(m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>Str);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="207" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pSecurityInfo-&gt;m_pSelfDealCheckMgr-&gt;InsertEntrust(pRiskEntrust);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="218" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  const auto &amp;n<tspan fill="red">OrderCommand</tspan> = m_stStockPublicContext.n<tspan fill="red">OrderCommand</tspan>;</text>
+ >  const auto &amp;n<tspan stroke="Red" fill="Blue">OrderCommand</tspan> = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderCommand</tspan>;</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,268.5)"
@@ -1133,7 +1133,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >        {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >          pRiskEntrust-&gt;m_stEntField.EntrustPrice = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice;</text>
+ >          pRiskEntrust-&gt;m_stEntField.EntrustPrice = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >        }</text>
 </g>
@@ -1801,7 +1801,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              USTPrice1 llCalcPrice{0};</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >              USTPrice1 llUpPrice = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;UpPrice;</text>
+ >              USTPrice1 llUpPrice = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;UpPrice;</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1534.5)"
@@ -1947,7 +1947,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >                llCalcPrice = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice * (100 + iRate) / 100;</text>
+ >                llCalcPrice = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice * (100 + iRate) / 100;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              }</text>
 </g>
@@ -2087,7 +2087,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >                llCalcPrice = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice * (100 + iRate) / 100;</text>
+ >                llCalcPrice = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice * (100 + iRate) / 100;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              }</text>
 </g>
@@ -3018,7 +3018,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              USTPrice1 llCalcPrice{0};</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >              USTPrice1 llDownPrice = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;DownPrice;</text>
+ >              USTPrice1 llDownPrice = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;DownPrice;</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,2403.5)"
@@ -3164,7 +3164,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >                llCalcPrice = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice * (100 - iRate) / 100;</text>
+ >                llCalcPrice = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice * (100 - iRate) / 100;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              }</text>
 </g>
@@ -3304,7 +3304,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >                llCalcPrice = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice * (100 - iRate) / 100;</text>
+ >                llCalcPrice = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice * (100 - iRate) / 100;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              }</text>
 </g>
@@ -4379,7 +4379,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >          {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >            pRiskEntrust-&gt;m_stEntField.EntrustPrice = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice;</text>
+ >            pRiskEntrust-&gt;m_stEntField.EntrustPrice = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >          }</text>
 </g>
@@ -4677,7 +4677,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >                USTPrice1 llUpPrice = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;UpPrice;</text>
+ >                USTPrice1 llUpPrice = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;UpPrice;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >                pRiskEntrust-&gt;m_stEntField.EntrustPrice = llUpPrice;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -4819,7 +4819,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >                USTPrice1 llDownPrice = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;DownPrice;</text>
+ >                USTPrice1 llDownPrice = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;DownPrice;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >                pRiskEntrust-&gt;m_stEntField.EntrustPrice = llDownPrice;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -7300,7 +7300,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >n<tspan fill="red">OrderCommand</tspan> != CNST_UST_ORDERCOMMAND_LIMIT</text>
+ >n<tspan stroke="Red" fill="Blue">OrderCommand</tspan> != CNST_UST_ORDERCOMMAND_LIMIT</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,545.5)"
@@ -8575,7 +8575,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.StockProperty == CNST_STOCK_SCIENTIFIC_BOARD</text>
+ >m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.StockProperty == CNST_STOCK_SCIENTIFIC_BOARD</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,1293.5)"
@@ -8785,7 +8785,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.StockProperty == CNST_STOCK_MAIN_BOARD</text>
+ >m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.StockProperty == CNST_STOCK_MAIN_BOARD</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,179.5,1422.5)"
@@ -8995,7 +8995,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice != 0</text>
+ >m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice != 0</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,1577.5)"
@@ -9163,7 +9163,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >FEQEX(m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.UpLimitedRatio, 0)</text>
+ >FEQEX(m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.UpLimitedRatio, 0)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,1802.5)"
@@ -9289,7 +9289,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >FEQEX(m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.UpLimitedRatio, 0)</text>
+ >FEQEX(m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.UpLimitedRatio, 0)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,633.5,1802.5)"
@@ -9707,7 +9707,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.StockProperty == CNST_STOCK_SCIENTIFIC_BOARD</text>
+ >m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.StockProperty == CNST_STOCK_SCIENTIFIC_BOARD</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,2162.5)"
@@ -9917,7 +9917,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.StockProperty == CNST_STOCK_MAIN_BOARD</text>
+ >m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.StockProperty == CNST_STOCK_MAIN_BOARD</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,179.5,2291.5)"
@@ -10127,7 +10127,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice != 0</text>
+ >m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice != 0</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,2459.5)"
@@ -10295,7 +10295,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >FEQEX(m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.DownLimitedRatio, 0)</text>
+ >FEQEX(m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.DownLimitedRatio, 0)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,2684.5)"
@@ -10421,7 +10421,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >FEQEX(m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.DownLimitedRatio, 0)</text>
+ >FEQEX(m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.DownLimitedRatio, 0)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,645.5,2684.5)"

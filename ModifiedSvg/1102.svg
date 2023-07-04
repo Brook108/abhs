@@ -73,7 +73,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >CInstanceHold* CInstance::NewInstanceHold(uint32_t n<tspan fill="red">StockCode</tspan>, uint32_t ExchangeIndex, uint32_t StockHoldIndex, uint32_t SeatIndex /*=0*/)</text>
+ >CInstanceHold* CInstance::NewInstanceHold(uint32_t n<tspan stroke="Red" fill="Blue">StockCode</tspan>, uint32_t ExchangeIndex, uint32_t StockHoldIndex, uint32_t SeatIndex /*=0*/)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1.5)"
@@ -435,7 +435,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    uint64_t key = ((1LL * n<tspan fill="red">StockCode</tspan> &lt;&lt; 32) | (1LL * ExchangeIndex &lt;&lt; 28) | (StockHoldIndex &lt;&lt; 12) | SeatIndex);</text>
+ >    uint64_t key = ((1LL * n<tspan stroke="Red" fill="Blue">StockCode</tspan> &lt;&lt; 32) | (1LL * ExchangeIndex &lt;&lt; 28) | (StockHoldIndex &lt;&lt; 12) | SeatIndex);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    m_mInstanceHoldMap.insert({ key, pInstanceHold });</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

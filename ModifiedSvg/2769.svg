@@ -293,7 +293,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    USTBalance nEnableValue = CalcCashEnableValue(lpContext, m_stStockPublicContext.pAsset, m_stStockPublicContext.nExchIndex, CNST_STOCKKIND_STOCK_INDEX,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    m_stStockPublicContext.cEntrust<tspan fill="red">Direction</tspan>, CNST_BUSINPROTYPE_ENTRUST, CNST_CASH_TYPE_NO_DISTINCTION);</text>
+ >    m_stStockPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>, CNST_BUSINPROTYPE_ENTRUST, CNST_CASH_TYPE_NO_DISTINCTION);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    CHECK_FUNC_ERR_RETURN;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -819,7 +819,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >        m_nErrorNo = CheckStockEnable(lpContext, m_stStockPublicContext.pStockHold, m_stStockPublicContext.n<tspan fill="red">StockCode</tspan>, m_stStockPublicContext.nFrozenVolume + m_stStockPublicContext.pStockHold-&gt;m_stHoldReal.TemporaryVolume, m_stStockPublicContext.cEntrust<tspan fill="red">Direction</tspan>);</text>
+ >        m_nErrorNo = CheckStockEnable(lpContext, m_stStockPublicContext.pStockHold, m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">StockCode</tspan>, m_stStockPublicContext.nFrozenVolume + m_stStockPublicContext.pStockHold-&gt;m_stHoldReal.TemporaryVolume, m_stStockPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      }</text>
 </g>
@@ -961,7 +961,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >        m_nErrorNo = ERR_SECU_STOCK_CANUSEAMT_NOTENOUGH;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >        AMUST_LOGBIZERR_RETURN(lpContext, ERR_SECU_STOCK_CANUSEAMT_NOTENOUGH, wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>Str),</text>
+ >        AMUST_LOGBIZERR_RETURN(lpContext, ERR_SECU_STOCK_CANUSEAMT_NOTENOUGH, wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>Str),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >        wrap(&quot;FrozenVolume&quot;, m_stStockPublicContext.nFrozenVolume),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1329,7 +1329,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >          USTVolume FrozenVolume = m_stStockPublicContext.nFrozenVolume + m_stStockPublicContext.pInstanceHold-&gt;m_stInsHoldField.TemporaryVolume;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >          m_nErrorNo = CheckInsHoldEnable(lpContext, m_stStockPublicContext.pInstanceHold, FrozenVolume, m_stStockPublicContext.n<tspan fill="red">StockCode</tspan>, m_stStockPublicContext.pInstance-&gt;m_stInstanceField.InstanceID, m_stStockPublicContext.cEntrust<tspan fill="red">Direction</tspan>);</text>
+ >          m_nErrorNo = CheckInsHoldEnable(lpContext, m_stStockPublicContext.pInstanceHold, FrozenVolume, m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">StockCode</tspan>, m_stStockPublicContext.pInstance-&gt;m_stInstanceField.InstanceID, m_stStockPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >        }</text>
 </g>
@@ -1471,7 +1471,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >          m_nErrorNo = ERR_SECU_STOCK_CANUSEAMT_NOTENOUGH;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >          AMUST_LOGBIZERR_RETURN(lpContext, ERR_INSTANCE_AMOUNT_NOTENOUGH, &quot;EnableAmount:0&quot;, wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>Str),</text>
+ >          AMUST_LOGBIZERR_RETURN(lpContext, ERR_INSTANCE_AMOUNT_NOTENOUGH, &quot;EnableAmount:0&quot;, wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>Str),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >          wrap(&quot;InstanceID&quot;, m_stStockPublicContext.pInstance-&gt;m_stInstanceField.InstanceID),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

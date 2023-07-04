@@ -75,7 +75,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >vector&lt;SStockFeeField*&gt;* CStockFeeMgr::GetStockFees(int32_t ExchIndex, int32_t StockType, int32_t FundID,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >int32_t AssetID, int32_t Entrust<tspan fill="red">Direction</tspan>Index, int32_t <tspan fill="red">StockCode</tspan>, USTType cStockFeeType)</text>
+ >int32_t AssetID, int32_t Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index, int32_t <tspan stroke="Red" fill="Blue">StockCode</tspan>, USTType cStockFeeType)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1.5)"
@@ -149,7 +149,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  uint32_t firstskey = GetFirstsHashKey(FundID);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  uint64_t secondskey = GetSecondsHashKey(AssetID, StockType,Entrust<tspan fill="red">Direction</tspan>Index, <tspan fill="red">StockCode</tspan>, nStockFeeType);</text>
+ >  uint64_t secondskey = GetSecondsHashKey(AssetID, StockType,Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index, <tspan stroke="Red" fill="Blue">StockCode</tspan>, nStockFeeType);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  auto&amp; firstmap = m_mapAnsStockFees[ExchIndex];</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -161,7 +161,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //            if(p != nullptr){</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  //                DEBUG_LOG_TRACE(&quot;ExchIndex:%d StockType:%d FundID:%d AssetID:%d Entrust<tspan fill="red">Direction</tspan>Index:%d <tspan fill="red">StockCode</tspan>:%d cStockFeeType:%c\n&quot;, ExchIndex, StockType, FundID, AssetID, Entrust<tspan fill="red">Direction</tspan>Index, <tspan fill="red">StockCode</tspan>, cStockFeeType);</text>
+ >  //                DEBUG_LOG_TRACE(&quot;ExchIndex:%d StockType:%d FundID:%d AssetID:%d Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index:%d <tspan stroke="Red" fill="Blue">StockCode</tspan>:%d cStockFeeType:%c\n&quot;, ExchIndex, StockType, FundID, AssetID, Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index, <tspan stroke="Red" fill="Blue">StockCode</tspan>, cStockFeeType);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //                for(auto ite : *p)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -169,7 +169,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //                    if(nullptr != ite)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  //                        DEBUG_LOG_TRACE(&quot;FeeField firstskey: %u secondskey: %lu FundID:%d AssetID:%d, FeeType:%c, EntrustBs:%c, <tspan fill="red">StockCode</tspan>:%d cStockFeeType:%c\n &quot;, firstskey, secondskey, ite-&gt;FundID, ite-&gt;AssetID, ite-&gt;FeeType, ite-&gt;EntrustBs, ite-&gt;<tspan fill="red">StockCode</tspan>, ite-&gt;StockFeeType);</text>
+ >  //                        DEBUG_LOG_TRACE(&quot;FeeField firstskey: %u secondskey: %lu FundID:%d AssetID:%d, FeeType:%c, EntrustBs:%c, <tspan stroke="Red" fill="Blue">StockCode</tspan>:%d cStockFeeType:%c\n &quot;, firstskey, secondskey, ite-&gt;FundID, ite-&gt;AssetID, ite-&gt;FeeType, ite-&gt;EntrustBs, ite-&gt;<tspan stroke="Red" fill="Blue">StockCode</tspan>, ite-&gt;StockFeeType);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="163" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //                }</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -760,7 +760,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    auto p = GetStockFee(ExchIndex, StockType, nFeeType, FundID, AssetID, Entrust<tspan fill="red">Direction</tspan>Index, <tspan fill="red">StockCode</tspan>, nStockFeeType);</text>
+ >    auto p = GetStockFee(ExchIndex, StockType, nFeeType, FundID, AssetID, Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index, <tspan stroke="Red" fill="Blue">StockCode</tspan>, nStockFeeType);</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,718.5)"

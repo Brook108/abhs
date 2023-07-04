@@ -145,7 +145,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //批量报单存在一种情况：第一笔无证券代码持仓，创建该证券代码持仓；由于批量数据存在缓存数组中，无法矫正，所以不能用数组中缓存的持仓指针。</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  CStockHoldReal* pHoldReal = m_stStockPublicContext.pCombi-&gt;GetHoldRealByCode(m_stStockPublicContext.n<tspan fill="red">StockCode</tspan>, m_stStockPublicContext.nExchIndex,</text>
+ >  CStockHoldReal* pHoldReal = m_stStockPublicContext.pCombi-&gt;GetHoldRealByCode(m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">StockCode</tspan>, m_stStockPublicContext.nExchIndex,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  m_stStockPublicContext.pStockHolder-&gt;m_stStockHolder.StockHoldIndex, m_stStockPublicContext.SeatIndex);</text>
 </g>
@@ -293,7 +293,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    pHoldReal = m_stStockPublicContext.pCombi-&gt;NewStockHoldReal(m_stStockPublicContext.pStockHolder,m_stStockPublicContext.n<tspan fill="red">StockCode</tspan>,m_stStockPublicContext.nExchIndex,</text>
+ >    pHoldReal = m_stStockPublicContext.pCombi-&gt;NewStockHoldReal(m_stStockPublicContext.pStockHolder,m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">StockCode</tspan>,m_stStockPublicContext.nExchIndex,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    m_stStockPublicContext.pStockHolder-&gt;m_stStockHolder.StockHoldIndex, m_stStockPublicContext.SeatIndex);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -301,15 +301,15 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    &quot;CombiID:&quot;, wrap(m_stStockPublicContext.pCombi-&gt;m_stCombiField.CombiID),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    &quot;<tspan fill="red">StockCode</tspan>:&quot;, wrap(m_stStockPublicContext.n<tspan fill="red">StockCode</tspan>));</text>
+ >    &quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>:&quot;, wrap(m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">StockCode</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    pHoldReal-&gt;m_stHoldReal.AssetID = m_stStockPublicContext.pCombi-&gt;m_stCombiField.AssetID;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    pHoldReal-&gt;m_stHoldReal.CombiID = m_stStockPublicContext.pCombi-&gt;m_stCombiField.CombiID;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    memcpy(pHoldReal-&gt;m_stHoldReal.ExchangeType, m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.ExchangeType, sizeof(pHoldReal-&gt;m_stHoldReal.ExchangeType));</text>
+ >    memcpy(pHoldReal-&gt;m_stHoldReal.ExchangeType, m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.ExchangeType, sizeof(pHoldReal-&gt;m_stHoldReal.ExchangeType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    pHoldReal-&gt;m_stHoldReal.<tspan fill="red">StockCode</tspan> = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>;</text>
+ >    pHoldReal-&gt;m_stHoldReal.<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    memcpy(pHoldReal-&gt;m_stHoldReal.StockAccount, m_stStockPublicContext.pStockHolder-&gt;m_stStockHolder.StockAccount, sizeof(pHoldReal-&gt;m_stHoldReal.StockAccount));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -323,7 +323,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    pHoldReal-&gt;m_stHoldReal.BeginCarryoverCost = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="185" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    strncpy(pHoldReal-&gt;m_stHoldReal.BindSeat, m_stStockPublicContext.pPositionSeat-&gt;m_stSeatField.<tspan fill="red">SeatNo</tspan>, sizeof(pHoldReal-&gt;m_stHoldReal.BindSeat) - 1);</text>
+ >    strncpy(pHoldReal-&gt;m_stHoldReal.BindSeat, m_stStockPublicContext.pPositionSeat-&gt;m_stSeatField.<tspan stroke="Red" fill="Blue">SeatNo</tspan>, sizeof(pHoldReal-&gt;m_stHoldReal.BindSeat) - 1);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="196" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    pHoldReal-&gt;m_stHoldReal.BindSeat[sizeof(pHoldReal-&gt;m_stHoldReal.BindSeat) - 1] = '\0';</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="207" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -331,7 +331,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="218" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    pHoldReal-&gt;m_pExcharg = m_stStockPublicContext.pExcharg;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="229" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    pHoldReal-&gt;m_p<tspan fill="red">StockCode</tspan> = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>;</text>
+ >    pHoldReal-&gt;m_p<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="240" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    m_stStockPublicContext.pStockHold = pHoldReal;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="251" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -553,11 +553,11 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  UpdateHoldEnableValue&lt;CStockHoldReal&gt;(lpContext, pHoldReal, pHoldReal-&gt;m_stHoldReal.ExchangeType,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pHoldReal-&gt;m_p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.StockType,</text>
+ >  pHoldReal-&gt;m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.StockType,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pHoldReal-&gt;m_p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.HzjyFlag,</text>
+ >  pHoldReal-&gt;m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.HzjyFlag,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  m_stStockPublicContext.cEntrust<tspan fill="red">Direction</tspan>,</text>
+ >  m_stStockPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  CNST_BUSINPROTYPE_ENTRUST,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -569,7 +569,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  wrap(&quot;ExchangeType&quot;, pHoldReal-&gt;m_stHoldReal.ExchangeType),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, pHoldReal-&gt;m_stHoldReal.<tspan fill="red">StockCode</tspan>),</text>
+ >  wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, pHoldReal-&gt;m_stHoldReal.<tspan stroke="Red" fill="Blue">StockCode</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  wrap(&quot;BeginAmount&quot;, pHoldReal-&gt;m_stHoldReal.BeginAmount),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

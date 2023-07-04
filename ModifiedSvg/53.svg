@@ -73,7 +73,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >int32_t GetCashEnableFormulaHashKey(USTExchangeIndex nExchangeIndex, USTNumID nSecurityType, USTEntrust<tspan fill="red">Direction</tspan> nEntrust<tspan fill="red">Direction</tspan>, USTType BusinProType, USTType SettleCashType)</text>
+ >int32_t GetCashEnableFormulaHashKey(USTExchangeIndex nExchangeIndex, USTNumID nSecurityType, USTEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> nEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>, USTType BusinProType, USTType SettleCashType)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1.5)"
@@ -147,7 +147,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  int32_t nSettleCashType = SettleCashType - CNST_CASH_TYPE_NO_DISTINCTION;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  return nExchangeIndex*100000000 + nSecurityType*1000000 + nEntrust<tspan fill="red">Direction</tspan>*10000 + nBusinProType*100 + nSettleCashType;</text>
+ >  return nExchangeIndex*100000000 + nSecurityType*1000000 + nEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>*10000 + nBusinProType*100 + nSettleCashType;</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,32.5)"

@@ -525,7 +525,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    tRiskUpdateField.m_cEntrustBs = CNST_ENTRUSTDIR_BUY + '0';</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    tRiskUpdateField.m_iEntrustAmount = -m_stPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >    tRiskUpdateField.m_iEntrustAmount = -m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    tRiskUpdateField.m_nEntrustBalance = - m_stPublicContext.pRiskEntrust-&gt;m_stEntField.OrderBalance;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -895,7 +895,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      tRiskUpdateField.m_cEntrustBs = CNST_ENTRUSTDIR_SALE + '0';</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      //tRiskUpdateField.m_iEntrustAmount = m_stPublicContext.n<tspan fill="red">OrderVolume</tspan> * pEtfStocklistField-&gt;mstEtfStocklist.StockAmount / ReportUnitAmount;</text>
+ >      //tRiskUpdateField.m_iEntrustAmount = m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan> * pEtfStocklistField-&gt;mstEtfStocklist.StockAmount / ReportUnitAmount;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      USTNumID iEntrustAmount = (m_stContext.vStockAmount[i] - (USTNumID)m_stContext.vStockRepAmount[i]);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1129,7 +1129,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    tRiskUpdateField.m_cEntrustBs = CNST_ENTRUSTDIR_SALE + '0';</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    tRiskUpdateField.m_iEntrustAmount = -m_stPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >    tRiskUpdateField.m_iEntrustAmount = -m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    tRiskUpdateField.m_nCommission = -m_stContext.nCommission;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1289,7 +1289,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      tRiskUpdateField.m_iEntrustAmount = -iEntrustAmount;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      C<tspan fill="red">StockCode</tspan>* p<tspan fill="red">StockCode</tspan> = pExcharg-&gt;Get<tspan fill="red">StockCode</tspan>(atoi(pEtfStocklistField-&gt;mstEtfStocklist.SecurityCodeElement));</text>
+ >      C<tspan stroke="Red" fill="Blue">StockCode</tspan>* p<tspan stroke="Red" fill="Blue">StockCode</tspan> = pExcharg-&gt;Get<tspan stroke="Red" fill="Blue">StockCode</tspan>(atoi(pEtfStocklistField-&gt;mstEtfStocklist.SecurityCodeElement));</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1152.5)"
@@ -1437,7 +1437,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >        //ETF赎回，成分股相当于买入，委托金额 = 成分股未替代数量数量*昨日结算价</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >        tRiskUpdateField.m_nEntrustBalance = tRiskUpdateField.m_iEntrustAmount * p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice;</text>
+ >        tRiskUpdateField.m_nEntrustBalance = tRiskUpdateField.m_iEntrustAmount * p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      }</text>
 </g>
@@ -2489,7 +2489,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan> == CNST_ENTRUSTDIR_APPLY</text>
+ >m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> == CNST_ENTRUSTDIR_APPLY</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,352.5)"
@@ -2909,7 +2909,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >nullptr != p<tspan fill="red">StockCode</tspan></text>
+ >nullptr != p<tspan stroke="Red" fill="Blue">StockCode</tspan></text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,143.5,1273.5)"

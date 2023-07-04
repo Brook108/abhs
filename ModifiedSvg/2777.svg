@@ -443,11 +443,11 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      wrap(&quot;CombiId&quot;, m_stStockPublicContext.pCombi-&gt;m_stCombiField.CombiID),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>),</text>
+ >      wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      wrap(&quot;<tspan fill="red">OrderVolume</tspan>&quot;, m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>),</text>
+ >      wrap(&quot;<tspan stroke="Red" fill="Blue">OrderVolume</tspan>&quot;, m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      wrap(&quot;<tspan fill="red">OrderPrice</tspan>&quot;, ConvertDouble(m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), PRICE_DECIMAL_DIGIT)</text>
+ >      wrap(&quot;<tspan stroke="Red" fill="Blue">OrderPrice</tspan>&quot;, ConvertDouble(m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), PRICE_DECIMAL_DIGIT)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      );</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -595,11 +595,11 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  wrap(&quot;CombiId&quot;, m_stStockPublicContext.pCombi-&gt;m_stCombiField.CombiID),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>),</text>
+ >  wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  wrap(&quot;<tspan fill="red">OrderVolume</tspan>&quot;, m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>),</text>
+ >  wrap(&quot;<tspan stroke="Red" fill="Blue">OrderVolume</tspan>&quot;, m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  wrap(&quot;<tspan fill="red">OrderPrice</tspan>&quot;, ConvertDouble(m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), PRICE_DECIMAL_DIGIT),</text>
+ >  wrap(&quot;<tspan stroke="Red" fill="Blue">OrderPrice</tspan>&quot;, ConvertDouble(m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), PRICE_DECIMAL_DIGIT),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  wrap(&quot;EntrustNo&quot;, m_nEntrustNo),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1058,15 +1058,15 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pEntrust-&gt;m_stEntField.InstanceIndex = m_stStockPublicContext.StrategyIndex;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(pEntrust-&gt;m_stEntField.ExchangeType, m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.ExchangeType, sizeof(pEntrust-&gt;m_stEntField.ExchangeType));</text>
+ >  memcpy(pEntrust-&gt;m_stEntField.ExchangeType, m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.ExchangeType, sizeof(pEntrust-&gt;m_stEntField.ExchangeType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pEntrust-&gt;m_stEntField.EntrustAmount = m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >  pEntrust-&gt;m_stEntField.EntrustAmount = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pEntrust-&gt;m_stEntField.<tspan fill="red">OrderCommand</tspan> = m_stStockPublicContext.n<tspan fill="red">OrderCommand</tspan>;</text>
+ >  pEntrust-&gt;m_stEntField.<tspan stroke="Red" fill="Blue">OrderCommand</tspan> = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderCommand</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pEntrust-&gt;m_stEntField.EntrustBs = m_stStockPublicContext.cEntrustBs;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="163" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pEntrust-&gt;m_stEntField.Entrust<tspan fill="red">Direction</tspan> = m_stStockPublicContext.cEntrustBs - '0';</text>
+ >  pEntrust-&gt;m_stEntField.Entrust<tspan stroke="Red" fill="Blue">Direction</tspan> = m_stStockPublicContext.cEntrustBs - '0';</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pEntrust-&gt;m_stEntField.CurrDate = m_stStockPublicContext.mCurrDate;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="185" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1074,9 +1074,9 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="196" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pEntrust-&gt;m_stEntField.ConfirmTime = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="207" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pEntrust-&gt;m_stEntField.EntrustPrice = m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan>;</text>
+ >  pEntrust-&gt;m_stEntField.EntrustPrice = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="218" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pEntrust-&gt;m_stEntField.EntrustBalance = m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan> * m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan>;</text>
+ >  pEntrust-&gt;m_stEntField.EntrustBalance = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan> * m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="229" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pEntrust-&gt;m_stEntField.ExchIndex = m_stStockPublicContext.nExchIndex;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="240" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1096,7 +1096,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="317" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  memcpy(pEntrust-&gt;m_stEntField.StockAccount, m_stStockPublicContext.pStockHolder-&gt;m_stStockHolder.StockAccount, sizeof(pEntrust-&gt;m_stEntField.StockAccount));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="328" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pEntrust-&gt;m_stEntField.<tspan fill="red">StockCode</tspan> = m_stStockPublicContext.n<tspan fill="red">StockCode</tspan>;</text>
+ >  pEntrust-&gt;m_stEntField.<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">StockCode</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="339" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pEntrust-&gt;m_stEntField.EntrustReference = m_stStockPublicContext.EntrustReference;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="350" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1118,7 +1118,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="438" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pEntrust-&gt;m_stEntField.Busiflag = CNST_BUSINFLAG_BUYSALE;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="449" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(pEntrust-&gt;m_stEntField.<tspan fill="red">SeatNo</tspan>, m_stStockPublicContext.pTradeSeat-&gt;m_stSeatField.<tspan fill="red">SeatNo</tspan>, sizeof(pEntrust-&gt;m_stEntField.<tspan fill="red">SeatNo</tspan>));</text>
+ >  memcpy(pEntrust-&gt;m_stEntField.<tspan stroke="Red" fill="Blue">SeatNo</tspan>, m_stStockPublicContext.pTradeSeat-&gt;m_stSeatField.<tspan stroke="Red" fill="Blue">SeatNo</tspan>, sizeof(pEntrust-&gt;m_stEntField.<tspan stroke="Red" fill="Blue">SeatNo</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="460" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pEntrust-&gt;m_stEntField.UnionRiskResult = CNST_UNION_RISK_NOT_REPLY;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="471" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1128,7 +1128,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="493" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pEntrust-&gt;m_pHoldReal = m_stStockPublicContext.pStockHold;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="504" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pEntrust-&gt;m_p<tspan fill="red">StockCode</tspan> = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>;</text>
+ >  pEntrust-&gt;m_p<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="515" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pEntrust-&gt;pSecurityInfo = m_stStockPublicContext.m_pSecurityInfo;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="526" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1386,7 +1386,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  wrap(&quot;EntrustStatus&quot;, pEntrust-&gt;m_stEntField.EntrustStatus),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, pEntrust-&gt;m_stEntField.<tspan fill="red">StockCode</tspan>),</text>
+ >  wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, pEntrust-&gt;m_stEntField.<tspan stroke="Red" fill="Blue">StockCode</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="163" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  wrap(&quot;FrozenBalance&quot;, ConvertDouble(pEntrust-&gt;m_stEntField.FrozenBalance, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), BALANCE_DECIMAL_DIGIT),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

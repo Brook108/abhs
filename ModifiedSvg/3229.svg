@@ -527,7 +527,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    snprintf(pRiskWarnRsp-&gt;SecurityCode, sizeof(pRiskWarnRsp-&gt;SecurityCode), &quot;%s&quot;, m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_pSecurityInfo-&gt;m_stSecurityInfo.SecurityCode);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    pRiskWarnRsp-&gt;Entrust<tspan fill="red">Direction</tspan> = m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan fill="red">Direction</tspan>;</text>
+ >    pRiskWarnRsp-&gt;Entrust<tspan stroke="Red" fill="Blue">Direction</tspan> = m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    pRiskWarnRsp-&gt;OffsetFlag       = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -547,7 +547,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="185" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    len = strlen(pRiskWarnRsp-&gt;RiskViolateRemark);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="196" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    snprintf(pRiskWarnRsp-&gt;RiskViolateRemark + len, sizeof(pRiskWarnRsp-&gt;RiskViolateRemark) - len, &quot;%.4f&quot;, ConvertDouble(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_n<tspan fill="red">OrderPrice</tspan>));</text>
+ >    snprintf(pRiskWarnRsp-&gt;RiskViolateRemark + len, sizeof(pRiskWarnRsp-&gt;RiskViolateRemark) - len, &quot;%.4f&quot;, ConvertDouble(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="207" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    len = strlen(pRiskWarnRsp-&gt;RiskViolateRemark);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="218" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

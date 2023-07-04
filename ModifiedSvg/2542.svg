@@ -2265,7 +2265,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >pEntrust-&gt;m_stEntField.<tspan fill="red">OrderCommand</tspan> == 1</text>
+ >pEntrust-&gt;m_stEntField.<tspan stroke="Red" fill="Blue">OrderCommand</tspan> == 1</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,137.5,352.5)"

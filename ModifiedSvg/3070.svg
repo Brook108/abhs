@@ -795,15 +795,15 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      //查找股票代码</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      UST<tspan fill="red">StockCode</tspan> n<tspan fill="red">StockCode</tspan> = m_stContext.v<tspan fill="red">StockCode</tspan>[i];</text>
+ >      UST<tspan stroke="Red" fill="Blue">StockCode</tspan> n<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stContext.v<tspan stroke="Red" fill="Blue">StockCode</tspan>[i];</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      pETFEntrustDetail = m_stContext.pEntrust-&gt;NewEntrustDetail(n<tspan fill="red">StockCode</tspan>, m_stContext.vStockIndex[i]);</text>
+ >      pETFEntrustDetail = m_stContext.pEntrust-&gt;NewEntrustDetail(n<tspan stroke="Red" fill="Blue">StockCode</tspan>, m_stContext.vStockIndex[i]);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      CHECK_BIZ_OBJ_ADD_FAIL(pETFEntrustDetail, m_nErrorNo, &quot;新增ETF委托明细记录失败&quot;,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      wrap(&quot;AccountIndex&quot;, m_stPublicContext.nAssetIndex));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      C<tspan fill="red">StockCode</tspan>* p<tspan fill="red">StockCode</tspan> = m_stPublicContext.pExcharg-&gt;Get<tspan fill="red">StockCode</tspan>(n<tspan fill="red">StockCode</tspan>);</text>
+ >      C<tspan stroke="Red" fill="Blue">StockCode</tspan>* p<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stPublicContext.pExcharg-&gt;Get<tspan stroke="Red" fill="Blue">StockCode</tspan>(n<tspan stroke="Red" fill="Blue">StockCode</tspan>);</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,590.5)"
@@ -949,7 +949,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >        p<tspan fill="red">StockCode</tspan> = m_stPublicContext.pOtherExcharg-&gt;Get<tspan fill="red">StockCode</tspan>(n<tspan fill="red">StockCode</tspan>);</text>
+ >        p<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stPublicContext.pOtherExcharg-&gt;Get<tspan stroke="Red" fill="Blue">StockCode</tspan>(n<tspan stroke="Red" fill="Blue">StockCode</tspan>);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      }</text>
 </g>
@@ -1019,11 +1019,11 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      AMUST_LOGBIZERR_CHECK_OBJ_NOT_FOUND_INNER_ASSIGN(p<tspan fill="red">StockCode</tspan>, &quot;找不到成份股代码信息 &quot;,  wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, n<tspan fill="red">StockCode</tspan>));</text>
+ >      AMUST_LOGBIZERR_CHECK_OBJ_NOT_FOUND_INNER_ASSIGN(p<tspan stroke="Red" fill="Blue">StockCode</tspan>, &quot;找不到成份股代码信息 &quot;,  wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, n<tspan stroke="Red" fill="Blue">StockCode</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      pETFEntrustDetail-&gt;ExchIndex = m_stContext.vStockIndex[i];</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      itoa(p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>, pETFEntrustDetail-&gt;SecurityCode, 10, 6); //成份股代码</text>
+ >      itoa(p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>, pETFEntrustDetail-&gt;SecurityCode, 10, 6); //成份股代码</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      pETFEntrustDetail-&gt;NoReplacedAmount = m_stContext.vStockAmount[i] - m_stContext.vStockRepAmount[i];</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1201,7 +1201,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  memcpy(pETFEntrustDetail-&gt;SecurityCode, m_stContext.pEtfBasicInfo-&gt;m_stEtfBasicInfo.EtfCode1, sizeof(pETFEntrustDetail-&gt;SecurityCode)); //申赎代码</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pETFEntrustDetail-&gt;NoReplacedAmount = m_stPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >  pETFEntrustDetail-&gt;NoReplacedAmount = m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pETFEntrustDetail-&gt;ReplacedAmount = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -4968,7 +4968,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >JudgeSZVirtualFundCode(m_stContext.v<tspan fill="red">StockCode</tspan>[i])</text>
+ >JudgeSZVirtualFundCode(m_stContext.v<tspan stroke="Red" fill="Blue">StockCode</tspan>[i])</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,143.5,390.5)"
@@ -5855,7 +5855,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >nullptr == p<tspan fill="red">StockCode</tspan></text>
+ >nullptr == p<tspan stroke="Red" fill="Blue">StockCode</tspan></text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,698.5)"

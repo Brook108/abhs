@@ -73,7 +73,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >int32_t GetEntrust<tspan fill="red">Direction</tspan>Index(int32_t n<tspan fill="red">Direction</tspan>)</text>
+ >int32_t GetEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index(int32_t n<tspan stroke="Red" fill="Blue">Direction</tspan>)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1.5)"
@@ -143,7 +143,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >{</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  int32_t n<tspan fill="red">Direction</tspan>Index = -1;</text>
+ >  int32_t n<tspan stroke="Red" fill="Blue">Direction</tspan>Index = -1;</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,32.5)"
@@ -211,7 +211,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  switch (n<tspan fill="red">Direction</tspan>)</text>
+ >  switch (n<tspan stroke="Red" fill="Blue">Direction</tspan>)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >{</text>
 </g>
@@ -357,7 +357,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    n<tspan fill="red">Direction</tspan>Index = CNST_ENTRUSTDIR_BUY - 1;</text>
+ >    n<tspan stroke="Red" fill="Blue">Direction</tspan>Index = CNST_ENTRUSTDIR_BUY - 1;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    break;</text>
 </g>
@@ -503,7 +503,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    n<tspan fill="red">Direction</tspan>Index = CNST_ENTRUSTDIR_SALE - 1;</text>
+ >    n<tspan stroke="Red" fill="Blue">Direction</tspan>Index = CNST_ENTRUSTDIR_SALE - 1;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    break;</text>
 </g>
@@ -649,7 +649,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    n<tspan fill="red">Direction</tspan>Index = CNST_ENTRUSTDIR_APPLY - 1;</text>
+ >    n<tspan stroke="Red" fill="Blue">Direction</tspan>Index = CNST_ENTRUSTDIR_APPLY - 1;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    break;</text>
 </g>
@@ -795,7 +795,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    n<tspan fill="red">Direction</tspan>Index = CNST_ENTRUSTDIR_REDEEM - 1;</text>
+ >    n<tspan stroke="Red" fill="Blue">Direction</tspan>Index = CNST_ENTRUSTDIR_REDEEM - 1;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    break;</text>
 </g>
@@ -941,7 +941,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    n<tspan fill="red">Direction</tspan>Index = CNST_ENTRUSTDIR_CALL - 1;</text>
+ >    n<tspan stroke="Red" fill="Blue">Direction</tspan>Index = CNST_ENTRUSTDIR_CALL - 1;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    break;</text>
 </g>
@@ -1157,7 +1157,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  return n<tspan fill="red">Direction</tspan>Index;</text>
+ >  return n<tspan stroke="Red" fill="Blue">Direction</tspan>Index;</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,793.5)"

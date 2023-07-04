@@ -338,56 +338,56 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    itoa(m_stStockPublicContext.EntrustReference, rsp-&gt;<tspan fill="red">OrderRef</tspan>);</text>
+ >    itoa(m_stStockPublicContext.EntrustReference, rsp-&gt;<tspan stroke="Red" fill="Blue">OrderRef</tspan>);</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999368,0,0,0.999368,106.433,148.406)"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    itoa(m_stStockPublicContext.n<tspan fill="red">StockCode</tspan>, rsp-&gt;<tspan fill="red">StockCode</tspan>, 10, 6);</text>
+ >    itoa(m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">StockCode</tspan>, rsp-&gt;<tspan stroke="Red" fill="Blue">StockCode</tspan>, 10, 6);</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999368,0,0,0.999368,106.433,148.406)"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    std::strncpy(rsp-&gt;<tspan fill="red">ExchangeID</tspan>, GetExchangeType(m_stStockPublicContext.nExchIndex), sizeof(rsp-&gt;<tspan fill="red">ExchangeID</tspan>));</text>
+ >    std::strncpy(rsp-&gt;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>, GetExchangeType(m_stStockPublicContext.nExchIndex), sizeof(rsp-&gt;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>));</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999368,0,0,0.999368,106.433,148.406)"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    rsp-&gt;<tspan fill="red">ExchangeID</tspan>[sizeof(rsp-&gt;<tspan fill="red">ExchangeID</tspan>) - 1] = '\0';</text>
+ >    rsp-&gt;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>[sizeof(rsp-&gt;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>) - 1] = '\0';</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999368,0,0,0.999368,106.433,148.406)"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    rsp-&gt;<tspan fill="red">Direction</tspan> = m_stStockPublicContext.cEntrust<tspan fill="red">Direction</tspan>;</text>
+ >    rsp-&gt;<tspan stroke="Red" fill="Blue">Direction</tspan> = m_stStockPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>;</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999368,0,0,0.999368,106.433,148.406)"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    rsp-&gt;<tspan fill="red">OrderPrice</tspan> = ConvertDouble(m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT);</text>
+ >    rsp-&gt;<tspan stroke="Red" fill="Blue">OrderPrice</tspan> = ConvertDouble(m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT);</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999368,0,0,0.999368,106.433,148.406)"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    rsp-&gt;<tspan fill="red">OrderVolume</tspan> = m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >    rsp-&gt;<tspan stroke="Red" fill="Blue">OrderVolume</tspan> = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999368,0,0,0.999368,106.433,148.406)"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    rsp-&gt;<tspan fill="red">OrderCommand</tspan> = m_stStockPublicContext.n<tspan fill="red">OrderCommand</tspan>;</text>
+ >    rsp-&gt;<tspan stroke="Red" fill="Blue">OrderCommand</tspan> = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderCommand</tspan>;</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999368,0,0,0.999368,106.433,148.406)"

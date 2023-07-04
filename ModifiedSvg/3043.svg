@@ -143,13 +143,13 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >{</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  m_stContext.nOrderHands = (m_stPublicContext.n<tspan fill="red">OrderVolume</tspan> / m_stContext.pEtfBasicInfo-&gt;m_stEtfBasicInfo.EtfReportUnit);</text>
+ >  m_stContext.nOrderHands = (m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan> / m_stContext.pEtfBasicInfo-&gt;m_stEtfBasicInfo.EtfReportUnit);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //委托价格 = (t-1日基准单位净值)/ETF申报单位  (放大10000倍)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  bool bFlag = false;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  m_stPublicContext.n<tspan fill="red">OrderPrice</tspan> = ConvertInt(m_stContext.pEtfBasicInfo-&gt;m_stEtfBasicInfo.EtfLastNavPercu / m_stContext.pEtfBasicInfo-&gt;m_stEtfBasicInfo.EtfReportUnit, &amp;bFlag);</text>
+ >  m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan> = ConvertInt(m_stContext.pEtfBasicInfo-&gt;m_stEtfBasicInfo.EtfLastNavPercu / m_stContext.pEtfBasicInfo-&gt;m_stEtfBasicInfo.EtfReportUnit, &amp;bFlag);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //提前分配记录大小(避免自动扩容，影响性能)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -159,7 +159,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  m_stContext.vCommission.resize(m_stContext.pEtfBasicInfo-&gt;m_vecEtfStocklist.size());</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  m_stContext.v<tspan fill="red">StockCode</tspan>.resize(m_stContext.pEtfBasicInfo-&gt;m_vecEtfStocklist.size());</text>
+ >  m_stContext.v<tspan stroke="Red" fill="Blue">StockCode</tspan>.resize(m_stContext.pEtfBasicInfo-&gt;m_vecEtfStocklist.size());</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  m_stContext.vStockIndex.resize(m_stContext.pEtfBasicInfo-&gt;m_vecEtfStocklist.size());</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

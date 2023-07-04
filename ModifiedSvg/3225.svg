@@ -451,7 +451,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      &quot;\n\t 当前因子： &quot;, wrap(i),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      &quot;\n\t Factor<tspan fill="red">Direction</tspan>: &quot;, wrap(lpRuleFactor-&gt;m_stSRiskFactorField.Factor<tspan fill="red">Direction</tspan>),</text>
+ >      &quot;\n\t Factor<tspan stroke="Red" fill="Blue">Direction</tspan>: &quot;, wrap(lpRuleFactor-&gt;m_stSRiskFactorField.Factor<tspan stroke="Red" fill="Blue">Direction</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      &quot;\n\t FactorId: &quot;, wrap(lpRuleFactor-&gt;m_stSRiskFactorField.FactorId),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1411,7 +1411,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    &quot;\n\t 当前因子： &quot;, wrap(0),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    &quot;\n\t Factor<tspan fill="red">Direction</tspan>: &quot;, wrap(lpRuleFactor-&gt;m_stSRiskFactorField.Factor<tspan fill="red">Direction</tspan>),</text>
+ >    &quot;\n\t Factor<tspan stroke="Red" fill="Blue">Direction</tspan>: &quot;, wrap(lpRuleFactor-&gt;m_stSRiskFactorField.Factor<tspan stroke="Red" fill="Blue">Direction</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    &quot;\n\t FactorId: &quot;, wrap(lpRuleFactor-&gt;m_stSRiskFactorField.FactorId),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

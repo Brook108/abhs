@@ -291,11 +291,11 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    m_stStockPublicContext.nCommission = CalcFee(lpContext, m_stStockPublicContext.pAsset, m_stStockPublicContext.nExchIndex,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    GetEntrust<tspan fill="red">Direction</tspan>Index(m_stStockPublicContext.cEntrust<tspan fill="red">Direction</tspan>), m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>, m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>, m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan>);</text>
+ >    GetEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index(m_stStockPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>), m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>, m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>, m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    //计算委托金额</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    m_stStockPublicContext.nEntrustBalance = m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan> * m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >    m_stStockPublicContext.nEntrustBalance = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan> * m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    //冻结金额=委托金额+费用</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -447,17 +447,17 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    m_stStockPublicContext.nCommission = CalcFee(lpContext, m_stStockPublicContext.pAsset, m_stStockPublicContext.nExchIndex,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    GetEntrust<tspan fill="red">Direction</tspan>Index(m_stStockPublicContext.cEntrust<tspan fill="red">Direction</tspan>), m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>, m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>, m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan>);</text>
+ >    GetEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index(m_stStockPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>), m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>, m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>, m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    //计算委托金额</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    m_stStockPublicContext.nEntrustBalance = m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan> * m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >    m_stStockPublicContext.nEntrustBalance = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan> * m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    m_stStockPublicContext.nFrozenCommission = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    m_stStockPublicContext.nFrozenBalance = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    m_stStockPublicContext.nFrozenVolume = m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >    m_stStockPublicContext.nFrozenVolume = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  }</text>
 </g>

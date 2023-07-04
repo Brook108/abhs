@@ -73,7 +73,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >C<tspan fill="red">StockCode</tspan>* CExcharg::Get<tspan fill="red">StockCode</tspan>(int32_t n<tspan fill="red">StockCode</tspan>)</text>
+ >C<tspan stroke="Red" fill="Blue">StockCode</tspan>* CExcharg::Get<tspan stroke="Red" fill="Blue">StockCode</tspan>(int32_t n<tspan stroke="Red" fill="Blue">StockCode</tspan>)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,1.5)"
@@ -143,7 +143,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >{</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  C<tspan fill="red">StockCode</tspan>* pStockcode = NULL;</text>
+ >  C<tspan stroke="Red" fill="Blue">StockCode</tspan>* pStockcode = NULL;</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,32.5)"
@@ -289,7 +289,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    pStockcode = m_map<tspan fill="red">StockCode</tspan>.at(n<tspan fill="red">StockCode</tspan>);</text>
+ >    pStockcode = m_map<tspan stroke="Red" fill="Blue">StockCode</tspan>.at(n<tspan stroke="Red" fill="Blue">StockCode</tspan>);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  }</text>
 </g>
@@ -649,7 +649,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >m_map<tspan fill="red">StockCode</tspan>.find(n<tspan fill="red">StockCode</tspan>) != m_map<tspan fill="red">StockCode</tspan>.end()</text>
+ >m_map<tspan stroke="Red" fill="Blue">StockCode</tspan>.find(n<tspan stroke="Red" fill="Blue">StockCode</tspan>) != m_map<tspan stroke="Red" fill="Blue">StockCode</tspan>.end()</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,149.5,75.5)"

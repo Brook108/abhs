@@ -73,7 +73,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >SCashEnableFactorField* UpdateCashEnableValueAndCashFactor(CStockBizContext* lpContext, CAsset* pAsset, USTExchangeIndex ExchangeIndex, USTNumID SecurityType, USTEntrust<tspan fill="red">Direction</tspan> Entrust<tspan fill="red">Direction</tspan>,</text>
+ >SCashEnableFactorField* UpdateCashEnableValueAndCashFactor(CStockBizContext* lpContext, CAsset* pAsset, USTExchangeIndex ExchangeIndex, USTNumID SecurityType, USTEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >USTType BusinProType, USTType SettleCashType, USTBalance UpdateBalance )</text>
 </g>
@@ -355,7 +355,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  int32_t nHashKey = GetCashEnableFormulaHashKey(ExchangeIndex, SecurityType, Entrust<tspan fill="red">Direction</tspan>, BusinProType, SettleCashType);</text>
+ >  int32_t nHashKey = GetCashEnableFormulaHashKey(ExchangeIndex, SecurityType, Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>, BusinProType, SettleCashType);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  SCashEnableCfgField* pCashEnableCfgField = lpContext-&gt;m_pDataImpl-&gt;GetCashEnableCfgFieldByKey(nHashKey);</text>
 </g>
@@ -507,7 +507,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    AMUST_LOGBIZERR(lpContext, ERR_ETF_NOT_FIND_CASH_ENABLE_CFG,  wrap(&quot;ExchangeIndex:&quot;, ExchangeIndex),  wrap(&quot;SecurityType&quot;, SecurityType),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    wrap(&quot;Entrust<tspan fill="red">Direction</tspan>&quot;, Entrust<tspan fill="red">Direction</tspan>),  wrap(&quot;BusinProType&quot;, BusinProType),  wrap(&quot;SettleCashType&quot;, SettleCashType));</text>
+ >    wrap(&quot;Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>&quot;, Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>),  wrap(&quot;BusinProType&quot;, BusinProType),  wrap(&quot;SettleCashType&quot;, SettleCashType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    return nullptr;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

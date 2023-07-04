@@ -943,11 +943,11 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      WARNING_LOG(this-&gt;m_lpContext, &quot;【批量订单服务-单笔】不支持的业务&quot;,wrap(&quot;i&quot;,i), wrap(&quot;<tspan fill="red">ExchangeID</tspan>&quot;, ((REQFIELD2_T*)(this-&gt;m_lpReqField2))-&gt;<tspan fill="red">ExchangeID</tspan>));</text>
+ >      WARNING_LOG(this-&gt;m_lpContext, &quot;【批量订单服务-单笔】不支持的业务&quot;,wrap(&quot;i&quot;,i), wrap(&quot;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>&quot;, ((REQFIELD2_T*)(this-&gt;m_lpReqField2))-&gt;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      nErrNo = ERR_ASSET_FUND_BUSINESS_UNKNOWN;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      SET_CONTEXT_BIZ_ERRMSG(this-&gt;m_lpContext, nErrNo, wrap(&quot;<tspan fill="red">ExchangeID</tspan>&quot;, ((REQFIELD2_T*)(this-&gt;m_lpReqField2))-&gt;<tspan fill="red">ExchangeID</tspan>));</text>
+ >      SET_CONTEXT_BIZ_ERRMSG(this-&gt;m_lpContext, nErrNo, wrap(&quot;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>&quot;, ((REQFIELD2_T*)(this-&gt;m_lpReqField2))-&gt;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    }</text>
 </g>

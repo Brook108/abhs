@@ -153,9 +153,9 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  SETFAsynEntrustField* sField = (SETFAsynEntrustField*)todbwriter.Get1stBizFixed();</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  sField-&gt;EntrustAmount = m_stPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >  sField-&gt;EntrustAmount = m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  sField-&gt;EntrustPrice = ConvertDouble(m_stPublicContext.n<tspan fill="red">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT);</text>
+ >  sField-&gt;EntrustPrice = ConvertDouble(m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  sField-&gt;EntrustBalance = ConvertDouble(m_stContext.nEntrustBalance, PRICE_MULTIPLIER, BALANCE_DECIMAL_DIGIT);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -539,7 +539,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    //实物申赎</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    sField-&gt;<tspan fill="red">OrderCommand</tspan> = 2;</text>
+ >    sField-&gt;<tspan stroke="Red" fill="Blue">OrderCommand</tspan> = 2;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  }</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -681,7 +681,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    sField-&gt;<tspan fill="red">OrderCommand</tspan> = 0;</text>
+ >    sField-&gt;<tspan stroke="Red" fill="Blue">OrderCommand</tspan> = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  }</text>
 </g>
@@ -755,9 +755,9 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  itoa(m_stPublicContext.nSecurityCode, sField-&gt;ReportCode, 10, 6);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(sField-&gt;ExchangeType, m_stPublicContext.<tspan fill="red">ExchangeID</tspan>, sizeof(sField-&gt;ExchangeType));</text>
+ >  memcpy(sField-&gt;ExchangeType, m_stPublicContext.<tspan stroke="Red" fill="Blue">ExchangeID</tspan>, sizeof(sField-&gt;ExchangeType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  sField-&gt;Entrust<tspan fill="red">Direction</tspan> = m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>;</text>
+ >  sField-&gt;Entrust<tspan stroke="Red" fill="Blue">Direction</tspan> = m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  memcpy(sField-&gt;StockAccount, m_stPublicContext.pStockHolder-&gt;m_stStockHolder.StockAccount, sizeof (sField-&gt;StockAccount));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -769,15 +769,15 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  sField-&gt;VolserialNo[0] = '\0';</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  sField-&gt;<tspan fill="red">TerminalInfo</tspan>[0] = '\0';</text>
+ >  sField-&gt;<tspan stroke="Red" fill="Blue">TerminalInfo</tspan>[0] = '\0';</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  Set<tspan fill="red">TerminalInfo</tspan>rmation&lt;SETFAsynEntrustField&gt;(lpContext-&gt;m_pSession, m_stPublicContext.pOptionalFields, OptionalFieldType::Binary, sField);</text>
+ >  Set<tspan stroke="Red" fill="Blue">TerminalInfo</tspan>rmation&lt;SETFAsynEntrustField&gt;(lpContext-&gt;m_pSession, m_stPublicContext.pOptionalFields, OptionalFieldType::Binary, sField);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  sField-&gt;BusinClass = CNST_TRADE_LOGIC_ETF_APPLYREDEEM;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(sField-&gt;<tspan fill="red">SeatNo</tspan>, m_stPublicContext.pTraderSeat-&gt;m_stSeatField.<tspan fill="red">SeatNo</tspan>, sizeof(sField-&gt;<tspan fill="red">SeatNo</tspan>));</text>
+ >  memcpy(sField-&gt;<tspan stroke="Red" fill="Blue">SeatNo</tspan>, m_stPublicContext.pTraderSeat-&gt;m_stSeatField.<tspan stroke="Red" fill="Blue">SeatNo</tspan>, sizeof(sField-&gt;<tspan stroke="Red" fill="Blue">SeatNo</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(sField-&gt;BindSeat, m_stPublicContext.pPositionSeat-&gt;m_stSeatField.<tspan fill="red">SeatNo</tspan>, sizeof(sField-&gt;BindSeat));</text>
+ >  memcpy(sField-&gt;BindSeat, m_stPublicContext.pPositionSeat-&gt;m_stSeatField.<tspan stroke="Red" fill="Blue">SeatNo</tspan>, sizeof(sField-&gt;BindSeat));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="163" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //委托明细数据落库(成份股、申赎代码、资金代码)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1510,7 +1510,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      pETFStockAsynEntrustField-&gt;EntrustNo = m_stContext.pEntrust-&gt;m_stEntField.EntrustNo;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      memcpy(pETFStockAsynEntrustField-&gt;ExchangeType, m_stPublicContext.<tspan fill="red">ExchangeID</tspan>, sizeof(pETFStockAsynEntrustField-&gt;ExchangeType));</text>
+ >      memcpy(pETFStockAsynEntrustField-&gt;ExchangeType, m_stPublicContext.<tspan stroke="Red" fill="Blue">ExchangeID</tspan>, sizeof(pETFStockAsynEntrustField-&gt;ExchangeType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      memcpy(pETFStockAsynEntrustField-&gt;ReportCode, CONT_SH_VIRTUAL_FUND_CODE4_STR, sizeof(pETFStockAsynEntrustField-&gt;ReportCode)); //非沪深资金代码</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1674,7 +1674,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >        pETFStockAsynEntrustField-&gt;EntrustNo = m_stContext.pEntrust-&gt;m_stEntField.EntrustNo;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >        memcpy(pETFStockAsynEntrustField-&gt;ExchangeType, m_stPublicContext.<tspan fill="red">ExchangeID</tspan>, sizeof(pETFStockAsynEntrustField-&gt;ExchangeType));</text>
+ >        memcpy(pETFStockAsynEntrustField-&gt;ExchangeType, m_stPublicContext.<tspan stroke="Red" fill="Blue">ExchangeID</tspan>, sizeof(pETFStockAsynEntrustField-&gt;ExchangeType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >        memcpy(pETFStockAsynEntrustField-&gt;ReportCode, CONT_SH_VIRTUAL_FUND_CODE1_STR, sizeof(pETFStockAsynEntrustField-&gt;ReportCode)); //沪市资金代码</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1832,7 +1832,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >          pETFStockAsynEntrustField-&gt;EntrustNo = m_stContext.pEntrust-&gt;m_stEntField.EntrustNo;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >          memcpy(pETFStockAsynEntrustField-&gt;ExchangeType, m_stPublicContext.<tspan fill="red">ExchangeID</tspan>, sizeof(pETFStockAsynEntrustField-&gt;ExchangeType));</text>
+ >          memcpy(pETFStockAsynEntrustField-&gt;ExchangeType, m_stPublicContext.<tspan stroke="Red" fill="Blue">ExchangeID</tspan>, sizeof(pETFStockAsynEntrustField-&gt;ExchangeType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >          memcpy(pETFStockAsynEntrustField-&gt;ReportCode, CONT_SH_VIRTUAL_FUND_CODE2_STR, sizeof(pETFStockAsynEntrustField-&gt;ReportCode)); //深市资金代码</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

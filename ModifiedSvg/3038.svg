@@ -147,7 +147,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  CEtfBasicInfo* pEtfBasicInfo = m_stPublicContext.pExcharg-&gt;GetEtfBasicInfoByEtfCode(m_stPublicContext.pSecurityInfo-&gt;m_stSecurityInfo.SecurityCode, m_stPublicContext.nExecType);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  AMUST_LOGBIZERR_CHECK_OBJ_NOT_FOUND_INNER_ASSIGN(pEtfBasicInfo, &quot;找不到ETF基础信息&quot;, wrap(&quot;<tspan fill="red">StockCode</tspan>Str&quot;, m_stPublicContext.pSecurityInfo-&gt;m_stSecurityInfo.SecurityCode),</text>
+ >  AMUST_LOGBIZERR_CHECK_OBJ_NOT_FOUND_INNER_ASSIGN(pEtfBasicInfo, &quot;找不到ETF基础信息&quot;, wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>Str&quot;, m_stPublicContext.pSecurityInfo-&gt;m_stSecurityInfo.SecurityCode),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  wrap(&quot;nExecType&quot;, m_stPublicContext.nExecType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -307,11 +307,11 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    USTType cInstanceHoldDealType; // 实例持仓处理类别</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    m_stPublicContext.pInstanceHold = GetInstanceHold(lpContext, m_stPublicContext.pInstance, m_stPublicContext.<tspan fill="red">ExchangeID</tspan>,</text>
+ >    m_stPublicContext.pInstanceHold = GetInstanceHold(lpContext, m_stPublicContext.pInstance, m_stPublicContext.<tspan stroke="Red" fill="Blue">ExchangeID</tspan>,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    atoi(pEtfBasicInfo-&gt;m_stEtfBasicInfo.SecurityCode), cInstanceHoldDealType,m_stPublicContext.pStockHolder-&gt;m_stStockHolder.StockHoldIndex,m_stPublicContext.SeatIndex);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    AMUST_LOGBIZERR_CHECK_OBJ_NOT_FOUND_INNER_ASSIGN(m_stPublicContext.pInstanceHold, &quot;找不到实例持仓&quot;,  wrap(&quot;<tspan fill="red">ExchangeID</tspan>&quot;, m_stPublicContext.<tspan fill="red">ExchangeID</tspan>),</text>
+ >    AMUST_LOGBIZERR_CHECK_OBJ_NOT_FOUND_INNER_ASSIGN(m_stPublicContext.pInstanceHold, &quot;找不到实例持仓&quot;,  wrap(&quot;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>&quot;, m_stPublicContext.<tspan stroke="Red" fill="Blue">ExchangeID</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    wrap(&quot;nSecurityCode&quot;, pEtfBasicInfo-&gt;m_stEtfBasicInfo.SecurityCode),  wrap(&quot;InstanceHoldDealType&quot;, cInstanceHoldDealType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -385,7 +385,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //查找代码</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  m_stContext.pETFCode = m_stPublicContext.pExcharg-&gt;Get<tspan fill="red">StockCode</tspan>(atoi(pEtfBasicInfo-&gt;m_stEtfBasicInfo.SecurityCode));</text>
+ >  m_stContext.pETFCode = m_stPublicContext.pExcharg-&gt;Get<tspan stroke="Red" fill="Blue">StockCode</tspan>(atoi(pEtfBasicInfo-&gt;m_stEtfBasicInfo.SecurityCode));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  AMUST_LOGBIZERR_CHECK_OBJ_NOT_FOUND_INNER_ASSIGN(m_stContext.pETFCode, &quot;找不到代码信息&quot;,  wrap(&quot;ExchangeIndex&quot;, m_stPublicContext.nExchIndex),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

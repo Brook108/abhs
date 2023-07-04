@@ -289,7 +289,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    m_nErrorNo = UpdateCashEnableValue(lpContext, m_stPublicContext.pAsset, m_stPublicContext.nExchIndex, m_stPublicContext.nSecurityType, m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>,</text>
+ >    m_nErrorNo = UpdateCashEnableValue(lpContext, m_stPublicContext.pAsset, m_stPublicContext.nExchIndex, m_stPublicContext.nSecurityType, m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    CNST_BUSINPROTYPE_REVOKE, CNST_CASH_TYPE_ESTIMATE_CASH, m_stContext.nEstimateCash);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -509,7 +509,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    m_nErrorNo = UpdateCashEnableValue(lpContext, m_stPublicContext.pAsset, m_stPublicContext.nExchIndex, m_stPublicContext.nSecurityType, m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>,</text>
+ >    m_nErrorNo = UpdateCashEnableValue(lpContext, m_stPublicContext.pAsset, m_stPublicContext.nExchIndex, m_stPublicContext.nSecurityType, m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    CNST_BUSINPROTYPE_REVOKE, CNST_CASH_TYPE_SH_CASH_REPLACE, m_stContext.nSHCashSubBalance);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -729,7 +729,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    m_nErrorNo = UpdateCashEnableValue(lpContext, m_stPublicContext.pAsset, m_stPublicContext.nExchIndex, m_stPublicContext.nSecurityType, m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>,</text>
+ >    m_nErrorNo = UpdateCashEnableValue(lpContext, m_stPublicContext.pAsset, m_stPublicContext.nExchIndex, m_stPublicContext.nSecurityType, m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    CNST_BUSINPROTYPE_REVOKE, CNST_CASH_TYPE_SZ_CASH_REPLACE, m_stContext.nSZCashSubBalance);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -951,7 +951,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    USTType SettleCashType = m_stPublicContext.nExchIndex == CNST_EXCHANGETYPE_SHA_INDEX ? CNST_CASH_TYPE_SH_CASH_REPLACE : CNST_CASH_TYPE_SZ_CASH_REPLACE;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    m_nErrorNo = UpdateCashEnableValue(lpContext, m_stPublicContext.pAsset, m_stPublicContext.nExchIndex, m_stPublicContext.nSecurityType, m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>,</text>
+ >    m_nErrorNo = UpdateCashEnableValue(lpContext, m_stPublicContext.pAsset, m_stPublicContext.nExchIndex, m_stPublicContext.nSecurityType, m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    CNST_BUSINPROTYPE_REVOKE, SettleCashType, m_stContext.nCommission);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1171,7 +1171,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    m_nErrorNo = UpdateCashEnableValue(lpContext, m_stPublicContext.pAsset, m_stPublicContext.nExchIndex, m_stPublicContext.nSecurityType, m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>,</text>
+ >    m_nErrorNo = UpdateCashEnableValue(lpContext, m_stPublicContext.pAsset, m_stPublicContext.nExchIndex, m_stPublicContext.nSecurityType, m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    CNST_BUSINPROTYPE_REVOKE, CNST_CASH_TYPE_NO_DISTINCTION, m_stContext.nCashSubBalance);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

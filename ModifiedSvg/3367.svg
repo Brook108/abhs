@@ -143,11 +143,11 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  double d<tspan fill="red">OrderPrice</tspan> = 0;</text>
+ >  double d<tspan stroke="Red" fill="Blue">OrderPrice</tspan> = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  double dComparePrice = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  int32_t EntrustBs =  m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan fill="red">Direction</tspan>;</text>
+ >  int32_t EntrustBs =  m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_iEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  int32_t iCtrlPriceType = lpMember-&gt;m_lpFactor-&gt;m_arrFactorParamType[CONTROL_PRICE].m_arrSFactorParamValeuField[0].RuleParamValue;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -299,7 +299,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice);</text>
+ >    dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    DEBUG_LOG(m_lpContext,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -453,7 +453,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice);</text>
+ >      dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      DEBUG_LOG(m_lpContext,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -823,7 +823,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >        dComparePrice = (double)m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;UpPrice / 10000;</text>
+ >        dComparePrice = (double)m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;UpPrice / 10000;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      }</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -975,7 +975,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >          dComparePrice = (double)m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;DownPrice / 10000;</text>
+ >          dComparePrice = (double)m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;DownPrice / 10000;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >        }</text>
 </g>
@@ -1195,7 +1195,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >        dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice);</text>
+ >        dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >        DEBUG_LOG(m_lpContext,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1353,7 +1353,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >          dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;SellPrice1);</text>
+ >          dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;SellPrice1);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >          DEBUG_LOG(m_lpContext,&quot;********比较价格取最低卖出(卖1价)，****dComparePrice:&quot;,wrap(dComparePrice));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1501,7 +1501,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >            dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;BuyPrice1);</text>
+ >            dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;BuyPrice1);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >            DEBUG_LOG(m_lpContext,&quot;********比较价格取最高买入(买1价)，****dComparePrice:&quot;,wrap(dComparePrice));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1649,7 +1649,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >              dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice);</text>
+ >              dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              DEBUG_LOG(m_lpContext,&quot;********比较价格取最新价，****dComparePrice:&quot;,wrap(dComparePrice));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1797,7 +1797,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >                dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice);</text>
+ >                dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >                DEBUG_LOG(m_lpContext,&quot;********比较价格取昨收盘价，****dComparePrice:&quot;,wrap(dComparePrice));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -2161,7 +2161,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >            dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;BuyPrice1);</text>
+ >            dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;BuyPrice1);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >            DEBUG_LOG(m_lpContext,&quot;********比较价格取最高买入(买1价)，****dComparePrice:&quot;,wrap(dComparePrice));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -2309,7 +2309,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >              dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;SellPrice1);</text>
+ >              dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;SellPrice1);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >              DEBUG_LOG(m_lpContext,&quot;********比较价格取最低卖出(卖1价)，****dComparePrice:&quot;,wrap(dComparePrice));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -2457,7 +2457,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >                dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice);</text>
+ >                dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >                DEBUG_LOG(m_lpContext,&quot;********比较价格取最新价，****dComparePrice:&quot;,wrap(dComparePrice));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -2605,7 +2605,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >                  dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice);</text>
+ >                  dComparePrice = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;YesterdayClosePrice);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >                  DEBUG_LOG(m_lpContext,&quot;********比较价格取昨收盘价，****dComparePrice:&quot;,wrap(dComparePrice));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -3031,11 +3031,11 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    d<tspan fill="red">OrderPrice</tspan> = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_n<tspan fill="red">OrderPrice</tspan>);</text>
+ >    d<tspan stroke="Red" fill="Blue">OrderPrice</tspan> = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    DEBUG_LOG(m_lpContext,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    &quot;\n\n\n*********控制价格取委托价，*****d<tspan fill="red">OrderPrice</tspan>:&quot;, wrap(d<tspan fill="red">OrderPrice</tspan>)</text>
+ >    &quot;\n\n\n*********控制价格取委托价，*****d<tspan stroke="Red" fill="Blue">OrderPrice</tspan>:&quot;, wrap(d<tspan stroke="Red" fill="Blue">OrderPrice</tspan>)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    );</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -3189,11 +3189,11 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      d<tspan fill="red">OrderPrice</tspan> = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan fill="red">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice);</text>
+ >      d<tspan stroke="Red" fill="Blue">OrderPrice</tspan> = (double)(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_lpStockQuote-&gt;StockLastPrice);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      DEBUG_LOG(m_lpContext,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      &quot;\n\n\n*********控制价格取最新价格，******d<tspan fill="red">OrderPrice</tspan>:&quot;, wrap(d<tspan fill="red">OrderPrice</tspan>)</text>
+ >      &quot;\n\n\n*********控制价格取最新价格，******d<tspan stroke="Red" fill="Blue">OrderPrice</tspan>:&quot;, wrap(d<tspan stroke="Red" fill="Blue">OrderPrice</tspan>)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      );</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -4695,7 +4695,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //    {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  //        *lpCalcResult = d<tspan fill="red">OrderPrice</tspan> - dComparePrice;</text>
+ >  //        *lpCalcResult = d<tspan stroke="Red" fill="Blue">OrderPrice</tspan> - dComparePrice;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //    }</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -4703,7 +4703,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //    {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  //        *lpCalcResult = dComparePrice - d<tspan fill="red">OrderPrice</tspan>;</text>
+ >  //        *lpCalcResult = dComparePrice - d<tspan stroke="Red" fill="Blue">OrderPrice</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //    }</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -4859,13 +4859,13 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    *lpCalcResult = (d<tspan fill="red">OrderPrice</tspan> - dComparePrice) / dComparePrice;</text>
+ >    *lpCalcResult = (d<tspan stroke="Red" fill="Blue">OrderPrice</tspan> - dComparePrice) / dComparePrice;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    DEBUG_LOG(m_lpContext,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    &quot;\n\n\n*********除法、买入***************lpCalcResult:%lf\n&quot;,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    &quot;\n*********d<tspan fill="red">OrderPrice</tspan>:%lf\n&quot;, wrap(d<tspan fill="red">OrderPrice</tspan>),</text>
+ >    &quot;\n*********d<tspan stroke="Red" fill="Blue">OrderPrice</tspan>:%lf\n&quot;, wrap(d<tspan stroke="Red" fill="Blue">OrderPrice</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    &quot;\n*********dComparePrice:%lf\n&quot;, wrap(dComparePrice),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -5023,13 +5023,13 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      *lpCalcResult = (dComparePrice - d<tspan fill="red">OrderPrice</tspan>) / dComparePrice;</text>
+ >      *lpCalcResult = (dComparePrice - d<tspan stroke="Red" fill="Blue">OrderPrice</tspan>) / dComparePrice;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      DEBUG_LOG(m_lpContext,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      &quot;\n\n\n*********除法、卖出***************lpCalcResult:%lf\n&quot;,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      &quot;\n*********d<tspan fill="red">OrderPrice</tspan>:%lf\n&quot;,wrap(d<tspan fill="red">OrderPrice</tspan>),</text>
+ >      &quot;\n*********d<tspan stroke="Red" fill="Blue">OrderPrice</tspan>:%lf\n&quot;,wrap(d<tspan stroke="Red" fill="Blue">OrderPrice</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      &quot;\n*********dComparePrice:%lf\n&quot;, wrap(dComparePrice),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -15186,7 +15186,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >imitPrice(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_n<tspan fill="red">OrderCommand</tspan>))//</text>
+ >imitPrice(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_n<tspan stroke="Red" fill="Blue">OrderCommand</tspan>))//</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,519.5,2818.5)"
@@ -16115,7 +16115,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >uleSet-&gt;m_stRuleSetField.Compare<tspan fill="red">Direction</tspan> == LARGER_THAN ||</text>
+ >uleSet-&gt;m_stRuleSetField.Compare<tspan stroke="Red" fill="Blue">Direction</tspan> == LARGER_THAN ||</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,137.5,3360.5)"
@@ -16241,7 +16241,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >uleSet-&gt;m_stRuleSetField.Compare<tspan fill="red">Direction</tspan> == MACRO_LARGER_EQUAL)</text>
+ >uleSet-&gt;m_stRuleSetField.Compare<tspan stroke="Red" fill="Blue">Direction</tspan> == MACRO_LARGER_EQUAL)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,549.5,3360.5)"
@@ -16493,7 +16493,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >uleSet-&gt;m_stRuleSetField.Compare<tspan fill="red">Direction</tspan> == LARGER_THAN ||</text>
+ >uleSet-&gt;m_stRuleSetField.Compare<tspan stroke="Red" fill="Blue">Direction</tspan> == LARGER_THAN ||</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,137.5,3655.5)"
@@ -16619,7 +16619,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >uleSet-&gt;m_stRuleSetField.Compare<tspan fill="red">Direction</tspan> == MACRO_LARGER_EQUAL)</text>
+ >uleSet-&gt;m_stRuleSetField.Compare<tspan stroke="Red" fill="Blue">Direction</tspan> == MACRO_LARGER_EQUAL)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,549.5,3655.5)"

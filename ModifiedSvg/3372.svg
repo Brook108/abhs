@@ -143,7 +143,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  bool bIsLimitPrice = IsLimitPrice(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_n<tspan fill="red">OrderCommand</tspan>);</text>
+ >  bool bIsLimitPrice = IsLimitPrice(m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_n<tspan stroke="Red" fill="Blue">OrderCommand</tspan>);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  auto&amp; arrPriceType = lpFactor-&gt;m_arrFactorParamType[PRICE_TYPE];</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -1023,7 +1023,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    DEBUG_LOG(m_lpContext,&quot;\n\n\n价格类型判断不相关&quot;, wrap(&quot;<tspan fill="red">OrderCommand</tspan>&quot;, m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_n<tspan fill="red">OrderCommand</tspan>),</text>
+ >    DEBUG_LOG(m_lpContext,&quot;\n\n\n价格类型判断不相关&quot;, wrap(&quot;<tspan stroke="Red" fill="Blue">OrderCommand</tspan>&quot;, m_lpContext-&gt;m_pRiskContext-&gt;m_szBatchOrderInfo[iOrderIndex].m_n<tspan stroke="Red" fill="Blue">OrderCommand</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    wrap(bIsLimitPrice ? &quot;限价&quot; : &quot;非限价&quot;), &quot;\n&quot;);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

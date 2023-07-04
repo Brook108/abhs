@@ -155,15 +155,15 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pRsp-&gt;ProjectIndex = m_stPublicContext.nCombiIndex;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  itoa(m_stPublicContext.uiEntrustReference, pRsp-&gt;<tspan fill="red">OrderRef</tspan>);</text>
+ >  itoa(m_stPublicContext.uiEntrustReference, pRsp-&gt;<tspan stroke="Red" fill="Blue">OrderRef</tspan>);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(pRsp-&gt;<tspan fill="red">ExchangeID</tspan>, m_stPublicContext.<tspan fill="red">ExchangeID</tspan>, sizeof(pRsp-&gt;<tspan fill="red">ExchangeID</tspan>));</text>
+ >  memcpy(pRsp-&gt;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>, m_stPublicContext.<tspan stroke="Red" fill="Blue">ExchangeID</tspan>, sizeof(pRsp-&gt;<tspan stroke="Red" fill="Blue">ExchangeID</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  itoa(m_stPublicContext.nSecurityCode, pRsp-&gt;<tspan fill="red">StockCode</tspan>, 10, 6); //申赎代码</text>
+ >  itoa(m_stPublicContext.nSecurityCode, pRsp-&gt;<tspan stroke="Red" fill="Blue">StockCode</tspan>, 10, 6); //申赎代码</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pRsp-&gt;<tspan fill="red">Direction</tspan> = m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>;</text>
+ >  pRsp-&gt;<tspan stroke="Red" fill="Blue">Direction</tspan> = m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  pRsp-&gt;<tspan fill="red">OrderVolume</tspan> = m_stPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >  pRsp-&gt;<tspan stroke="Red" fill="Blue">OrderVolume</tspan> = m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  pRsp-&gt;RiskCheckNo = 0; //待风控补充</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

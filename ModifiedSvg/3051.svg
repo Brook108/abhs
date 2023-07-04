@@ -171,7 +171,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="163" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //申购</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="174" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  if (m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan> == CNST_ENTRUSTDIR_APPLY)</text>
+ >  if (m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> == CNST_ENTRUSTDIR_APPLY)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="185" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >{</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="196" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -179,9 +179,9 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="207" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.clear();</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="218" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_iEntrust<tspan fill="red">Direction</tspan> = CNST_ENTRUSTDIR_BUY;</text>
+ >  orderInfo.m_iEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> = CNST_ENTRUSTDIR_BUY;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="229" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_iOriginEntrust<tspan fill="red">Direction</tspan> = m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>;</text>
+ >  orderInfo.m_iOriginEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> = m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="240" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_iPlatForm = m_stPublicContext.TradePlatForm;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="251" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -189,7 +189,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="262" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_nErrorNo = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="273" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_n<tspan fill="red">OrderCommand</tspan> = m_stPublicContext.n<tspan fill="red">OrderCommand</tspan>;</text>
+ >  orderInfo.m_n<tspan stroke="Red" fill="Blue">OrderCommand</tspan> = m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderCommand</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="284" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_pCombi = m_stPublicContext.pCombi;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="295" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -203,7 +203,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="339" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_pTrader = m_stPublicContext.pTrader;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="350" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_p<tspan fill="red">StockCode</tspan> = m_stContext.pEtfBasicInfo-&gt;m_p<tspan fill="red">StockCode</tspan>;</text>
+ >  orderInfo.m_p<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stContext.pEtfBasicInfo-&gt;m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="361" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_iContraReportNo = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="372" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -249,7 +249,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="592" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //等效于买入ETF成分股,判风控</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="603" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_iEntrust<tspan fill="red">Direction</tspan> = CNST_ENTRUSTDIR_SALE;</text>
+ >  orderInfo.m_iEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> = CNST_ENTRUSTDIR_SALE;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="614" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  int32_t i = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="625" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -271,7 +271,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="713" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  CHECK_BIZ_OBJ_NOT_FOUND(pExcharg, &quot;找不到成分股交易市场对象 &quot;, &quot;ExchangeType:&quot;, wrap(etfStockDetail-&gt;mstEtfStocklist.ExchangeTypeElement));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="724" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_p<tspan fill="red">StockCode</tspan> = pExcharg-&gt;Get<tspan fill="red">StockCode</tspan>(atoi(etfStockDetail-&gt;mstEtfStocklist.SecurityCodeElement));</text>
+ >  orderInfo.m_p<tspan stroke="Red" fill="Blue">StockCode</tspan> = pExcharg-&gt;Get<tspan stroke="Red" fill="Blue">StockCode</tspan>(atoi(etfStockDetail-&gt;mstEtfStocklist.SecurityCodeElement));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="735" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_RuleCalcResult.clear();</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="746" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -305,9 +305,9 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="900" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.clear();</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="911" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_iEntrust<tspan fill="red">Direction</tspan> = CNST_ENTRUSTDIR_SALE;</text>
+ >  orderInfo.m_iEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> = CNST_ENTRUSTDIR_SALE;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="922" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_iOriginEntrust<tspan fill="red">Direction</tspan> = m_stPublicContext.cEntrust<tspan fill="red">Direction</tspan>;</text>
+ >  orderInfo.m_iOriginEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> = m_stPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="933" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_iPlatForm = m_stPublicContext.TradePlatForm;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="944" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -315,7 +315,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="955" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_nErrorNo = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="966" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_n<tspan fill="red">OrderCommand</tspan> = m_stPublicContext.n<tspan fill="red">OrderCommand</tspan>;</text>
+ >  orderInfo.m_n<tspan stroke="Red" fill="Blue">OrderCommand</tspan> = m_stPublicContext.n<tspan stroke="Red" fill="Blue">OrderCommand</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="977" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_pCombi = m_stPublicContext.pCombi;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="988" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -329,7 +329,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1032" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_pTrader = m_stPublicContext.pTrader;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1043" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_p<tspan fill="red">StockCode</tspan> = m_stContext.pEtfBasicInfo-&gt;m_p<tspan fill="red">StockCode</tspan>;</text>
+ >  orderInfo.m_p<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stContext.pEtfBasicInfo-&gt;m_p<tspan stroke="Red" fill="Blue">StockCode</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1054" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_iContraReportNo = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1065" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -375,7 +375,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1285" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //等效于买入ETF成分股,判风控</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1296" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_iEntrust<tspan fill="red">Direction</tspan> = CNST_ENTRUSTDIR_BUY;</text>
+ >  orderInfo.m_iEntrust<tspan stroke="Red" fill="Blue">Direction</tspan> = CNST_ENTRUSTDIR_BUY;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1307" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  for (auto&amp; etfStockDetail : m_stContext.pEtfBasicInfo-&gt;m_vecEtfStocklist)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1318" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -387,7 +387,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1351" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  CHECK_BIZ_OBJ_NOT_FOUND(pExcharg, &quot;找不到成分股交易市场对象 &quot;, &quot;ExchangeType:&quot;, wrap(etfStockDetail-&gt;mstEtfStocklist.ExchangeTypeElement));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1362" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  orderInfo.m_p<tspan fill="red">StockCode</tspan> = pExcharg-&gt;Get<tspan fill="red">StockCode</tspan>(atoi(etfStockDetail-&gt;mstEtfStocklist.SecurityCodeElement));</text>
+ >  orderInfo.m_p<tspan stroke="Red" fill="Blue">StockCode</tspan> = pExcharg-&gt;Get<tspan stroke="Red" fill="Blue">StockCode</tspan>(atoi(etfStockDetail-&gt;mstEtfStocklist.SecurityCodeElement));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1373" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  orderInfo.m_RuleCalcResult.clear();</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="1384" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

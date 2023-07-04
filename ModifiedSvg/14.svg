@@ -73,7 +73,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >int32_t CalcFee(CStockBizContext* lpContext, CAsset* lpAsset, int32_t ExchIndex,int32_t Entrust<tspan fill="red">Direction</tspan>Index, C<tspan fill="red">StockCode</tspan>* <tspan fill="red">StockCode</tspan>,HSNum EntrustAmount, USTPrice1 EntrustPrice, int32_t nFareType /*= -1*/)</text>
+ >int32_t CalcFee(CStockBizContext* lpContext, CAsset* lpAsset, int32_t ExchIndex,int32_t Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index, C<tspan stroke="Red" fill="Blue">StockCode</tspan>* <tspan stroke="Red" fill="Blue">StockCode</tspan>,HSNum EntrustAmount, USTPrice1 EntrustPrice, int32_t nFareType /*= -1*/)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1.5)"
@@ -145,7 +145,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  INFO_LOG(lpContext,&quot;费用计算入参&quot;,wrap(&quot;ExchIndex&quot;, ExchIndex),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  wrap(&quot;Entrust<tspan fill="red">Direction</tspan>Index&quot;, Entrust<tspan fill="red">Direction</tspan>Index),</text>
+ >  wrap(&quot;Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index&quot;, Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  wrap(&quot;EntrustAmount&quot;, EntrustAmount),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -582,7 +582,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  USTBalance CalcBalanceSum = 0;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  USTNumID StockType = <tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.StockType;</text>
+ >  USTNumID StockType = <tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.StockType;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  CStockFeeMgr* pStockFeeMgr = lpContext-&gt;m_pDataImpl-&gt;GetStockFeeMgr(lpAsset-&gt;m_stAssetField.SysNo);</text>
 </g>
@@ -806,7 +806,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  auto pVec = pStockFeeMgr-&gt;GetStockFees(ExchIndex, StockType, lpAsset-&gt;m_stAssetField.FundID, lpAsset-&gt;m_stAssetField.AssetID,</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  Entrust<tspan fill="red">Direction</tspan>Index, <tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>, getStockFeeType(<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.StockProperty));</text>
+ >  Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index, <tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>, getStockFeeType(<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.StockProperty));</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,637.5)"
@@ -1302,7 +1302,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      , wrap(&quot;ExchangeType&quot;, pBfare-&gt;ExchangeType), wrap(&quot;StockFeeType&quot;, pBfare-&gt;StockFeeType), wrap(&quot;BalanceFeeRatio&quot;, pBfare-&gt;BalanceFeeRatio), wrap(&quot;QuantityCost&quot;, pBfare-&gt;QuantityCost),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >      wrap(&quot;FaceValueRatio&quot;, pBfare-&gt;FaceValueRatio), wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, pBfare-&gt;<tspan fill="red">StockCode</tspan>), wrap(&quot;MinFare&quot;, pBfare-&gt;MinFare), wrap(&quot;MaxFare&quot;, pBfare-&gt;MaxFare), wrap(&quot;IsValid&quot;, pBfare-&gt;IsValid) );</text>
+ >      wrap(&quot;FaceValueRatio&quot;, pBfare-&gt;FaceValueRatio), wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, pBfare-&gt;<tspan stroke="Red" fill="Blue">StockCode</tspan>), wrap(&quot;MinFare&quot;, pBfare-&gt;MinFare), wrap(&quot;MaxFare&quot;, pBfare-&gt;MaxFare), wrap(&quot;IsValid&quot;, pBfare-&gt;IsValid) );</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >      int32_t nFeeTypeIndex = 0;</text>
 </g>
@@ -4869,7 +4869,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >Entrust<tspan fill="red">Direction</tspan>Index == (CNST_ENTRUSTDIR_APPLY-1)</text>
+ >Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index == (CNST_ENTRUSTDIR_APPLY-1)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,137.5,274.5)"
@@ -5000,7 +5000,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >Entrust<tspan fill="red">Direction</tspan>Index == (CNST_ENTRUSTDIR_REDEEM-1)</text>
+ >Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>Index == (CNST_ENTRUSTDIR_REDEEM-1)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,489.5,274.5)"

@@ -159,13 +159,13 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //证券对象</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  tRiskUpdateField.m_p<tspan fill="red">StockCode</tspan> = m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>;</text>
+ >  tRiskUpdateField.m_p<tspan stroke="Red" fill="Blue">StockCode</tspan> = m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  tRiskUpdateField.m_pSecurityInfo = m_stStockPublicContext.pExcharg-&gt;GetSecurityInfo(m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>Str);</text>
+ >  tRiskUpdateField.m_pSecurityInfo = m_stStockPublicContext.pExcharg-&gt;GetSecurityInfo(m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>Str);</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //AB类</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  tRiskUpdateField.m_iEntrustAmount = m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >  tRiskUpdateField.m_iEntrustAmount = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  tRiskUpdateField.m_nCommission = m_stStockPublicContext.nCommission;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="163" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 

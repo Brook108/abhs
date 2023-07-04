@@ -365,13 +365,13 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  USTSerialNo key = pEntrust-&gt;m_stEntField.RiskEntrustNo;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  UST<tspan fill="red">OrderCommand</tspan> <tspan fill="red">OrderCommand</tspan> = pEntrust-&gt;m_stEntField.<tspan fill="red">OrderCommand</tspan>;</text>
+ >  UST<tspan stroke="Red" fill="Blue">OrderCommand</tspan> <tspan stroke="Red" fill="Blue">OrderCommand</tspan> = pEntrust-&gt;m_stEntField.<tspan stroke="Red" fill="Blue">OrderCommand</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  USTType EntrustBs = pEntrust-&gt;m_stEntField.EntrustBs;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  //普通单</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  //DEBUG_LOG_TRACE(&quot;报单指令  %d\n&quot;, <tspan fill="red">OrderCommand</tspan>);</text>
+ >  //DEBUG_LOG_TRACE(&quot;报单指令  %d\n&quot;, <tspan stroke="Red" fill="Blue">OrderCommand</tspan>);</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,174.5)"
@@ -4922,7 +4922,7 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="13" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >likely(<tspan fill="red">OrderCommand</tspan> == 1)</text>
+ >likely(<tspan stroke="Red" fill="Blue">OrderCommand</tspan> == 1)</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,137.5,295.5)"

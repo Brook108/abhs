@@ -299,11 +299,11 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    wrap(&quot;CombiId&quot;, m_stStockPublicContext.pCombi-&gt;m_stCombiField.CombiID),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    wrap(&quot;<tspan fill="red">StockCode</tspan>&quot;, m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>),</text>
+ >    wrap(&quot;<tspan stroke="Red" fill="Blue">StockCode</tspan>&quot;, m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    wrap(&quot;<tspan fill="red">OrderVolume</tspan>&quot;, m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>),</text>
+ >    wrap(&quot;<tspan stroke="Red" fill="Blue">OrderVolume</tspan>&quot;, m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    wrap(&quot;<tspan fill="red">OrderPrice</tspan>&quot;, ConvertDouble(m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), PRICE_DECIMAL_DIGIT)</text>
+ >    wrap(&quot;<tspan stroke="Red" fill="Blue">OrderPrice</tspan>&quot;, ConvertDouble(m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT), PRICE_DECIMAL_DIGIT)</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >    );</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -395,9 +395,9 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  memcpy(toUniRisk.CombiCode, m_stStockPublicContext.pCombi-&gt;m_stCombiField.CombiCode, sizeof(toUniRisk.CombiCode));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(toUniRisk.ExchangeType, m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.ExchangeType, sizeof(toUniRisk.ExchangeType));</text>
+ >  memcpy(toUniRisk.ExchangeType, m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.ExchangeType, sizeof(toUniRisk.ExchangeType));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(toUniRisk.SecurityCode, m_stStockPublicContext.p<tspan fill="red">StockCode</tspan>-&gt;m_stCodeField.<tspan fill="red">StockCode</tspan>Str, sizeof(UST<tspan fill="red">StockCode</tspan>Str));</text>
+ >  memcpy(toUniRisk.SecurityCode, m_stStockPublicContext.p<tspan stroke="Red" fill="Blue">StockCode</tspan>-&gt;m_stCodeField.<tspan stroke="Red" fill="Blue">StockCode</tspan>Str, sizeof(UST<tspan stroke="Red" fill="Blue">StockCode</tspan>Str));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  toUniRisk.ExchangePlatform = (m_stStockPublicContext.pExcharg-&gt;m_ExchangeIndex == 0) ? CNST_TRADE_PLATFORM_SH_BIDDING : CNST_TRADE_PLATFORM_SZ_BIDDING;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
@@ -549,7 +549,7 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  {</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >    memcpy(toUniRisk.BindSeat, pBindSeat-&gt;m_stSeatField.<tspan fill="red">SeatNo</tspan>, sizeof(toUniRisk.BindSeat));</text>
+ >    memcpy(toUniRisk.BindSeat, pBindSeat-&gt;m_stSeatField.<tspan stroke="Red" fill="Blue">SeatNo</tspan>, sizeof(toUniRisk.BindSeat));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  }</text>
 </g>
@@ -619,9 +619,9 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  memcpy(toUniRisk.<tspan fill="red">SeatNo</tspan>, m_stStockPublicContext.pTradeSeat-&gt;m_stSeatField.<tspan fill="red">SeatNo</tspan>, sizeof(toUniRisk.<tspan fill="red">SeatNo</tspan>));</text>
+ >  memcpy(toUniRisk.<tspan stroke="Red" fill="Blue">SeatNo</tspan>, m_stStockPublicContext.pTradeSeat-&gt;m_stSeatField.<tspan stroke="Red" fill="Blue">SeatNo</tspan>, sizeof(toUniRisk.<tspan stroke="Red" fill="Blue">SeatNo</tspan>));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  toUniRisk.<tspan fill="red">OrderPrice</tspan> = ConvertDouble(m_stStockPublicContext.n<tspan fill="red">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT);</text>
+ >  toUniRisk.<tspan stroke="Red" fill="Blue">OrderPrice</tspan> = ConvertDouble(m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderPrice</tspan>, PRICE_MULTIPLIER, PRICE_DECIMAL_DIGIT);</text>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,106.5,615.5)"
@@ -977,13 +977,13 @@ font-family="SimSun" font-size="9" font-weight="400" font-style="normal"
 font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  toUniRisk.Entrust<tspan fill="red">Direction</tspan> = m_stStockPublicContext.cEntrust<tspan fill="red">Direction</tspan>;</text>
+ >  toUniRisk.Entrust<tspan stroke="Red" fill="Blue">Direction</tspan> = m_stStockPublicContext.cEntrust<tspan stroke="Red" fill="Blue">Direction</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  toUniRisk.<tspan fill="red">OrderVolume</tspan> = m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan>;</text>
+ >  toUniRisk.<tspan stroke="Red" fill="Blue">OrderVolume</tspan> = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  toUniRisk.<tspan fill="red">OrderCommand</tspan> = m_stStockPublicContext.n<tspan fill="red">OrderCommand</tspan>;</text>
+ >  toUniRisk.<tspan stroke="Red" fill="Blue">OrderCommand</tspan> = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderCommand</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  toUniRisk.OrderBalance = m_stStockPublicContext.n<tspan fill="red">OrderVolume</tspan> * toUniRisk.<tspan fill="red">OrderPrice</tspan>;</text>
+ >  toUniRisk.OrderBalance = m_stStockPublicContext.n<tspan stroke="Red" fill="Blue">OrderVolume</tspan> * toUniRisk.<tspan stroke="Red" fill="Blue">OrderPrice</tspan>;</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  int32_t nRet = lpContext-&gt;PostMsg2Risk((void*)&amp;sReportMsg, sizeof(REQ_UNION_RISK_ORDER_MSG));</text>
 </g>
@@ -1223,13 +1223,13 @@ font-family="Songti SC" font-size="11" font-weight="400" font-style="normal"
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  wrap(&quot;SecurityCode&quot;, toUniRisk.SecurityCode),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  wrap(&quot;Entrust<tspan fill="red">Direction</tspan>&quot;, toUniRisk.Entrust<tspan fill="red">Direction</tspan>),</text>
+ >  wrap(&quot;Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>&quot;, toUniRisk.Entrust<tspan stroke="Red" fill="Blue">Direction</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  wrap(&quot;<tspan fill="red">OrderPrice</tspan>&quot;, toUniRisk.<tspan fill="red">OrderPrice</tspan>, PRICE_DECIMAL_DIGIT),</text>
+ >  wrap(&quot;<tspan stroke="Red" fill="Blue">OrderPrice</tspan>&quot;, toUniRisk.<tspan stroke="Red" fill="Blue">OrderPrice</tspan>, PRICE_DECIMAL_DIGIT),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  wrap(&quot;<tspan fill="red">OrderVolume</tspan>&quot;, toUniRisk.<tspan fill="red">OrderVolume</tspan>),</text>
+ >  wrap(&quot;<tspan stroke="Red" fill="Blue">OrderVolume</tspan>&quot;, toUniRisk.<tspan stroke="Red" fill="Blue">OrderVolume</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
- >  wrap(&quot;<tspan fill="red">OrderCommand</tspan>&quot;, toUniRisk.<tspan fill="red">OrderCommand</tspan>),</text>
+ >  wrap(&quot;<tspan stroke="Red" fill="Blue">OrderCommand</tspan>&quot;, toUniRisk.<tspan stroke="Red" fill="Blue">OrderCommand</tspan>),</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
  >  wrap(&quot;StockAccount&quot;, toUniRisk.StockAccount));</text>
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
