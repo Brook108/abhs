@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256.822mm" height="86.4306mm"
+ viewBox="0 0 728 245"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Function ID:3092</title>
+<desc>An SVG drawing created by the SVG Generator function coverage visiable svg.</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="0" width="93" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:35610</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:194~195</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="93" y="0" width="286" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >int32_t CRulesProcMgr::MutexRuleProcessStart()</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,1.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#e85940" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="31" width="93" height="182"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,32.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:35612</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:195~214</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#e85940" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="93" y="31" width="634" height="182"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,32.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >{</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //互斥规则单独一个线程处理</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="31" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_rCtx-&gt;m_szRFParam[m_rCtx-&gt;m_iCurrentPos][0] = &amp;m_rCtx-&gt;m_szRuleRltCheckParam[m_rCtx-&gt;m_iCurrentPos];</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="42" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_rCtx-&gt;m_szCurrentNum[m_rCtx-&gt;m_iCurrentPos] = m_rCtx-&gt;m_iCurrentNum;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="53" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_rCtx-&gt;m_szRFParam[m_rCtx-&gt;m_iCurrentPos][1] = &amp;m_rCtx-&gt;m_szCurrentNum[m_rCtx-&gt;m_iCurrentPos];</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="64" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  //串行处理</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="75" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  ProcessGroupRuleInRF(&amp;m_rCtx-&gt;m_szRuleRltCheckParam[m_rCtx-&gt;m_iCurrentPos],</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="86" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  &amp;m_rCtx-&gt;m_szCurrentNum[m_rCtx-&gt;m_iCurrentPos],</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="97" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  (void *)((unsigned long)false),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="108" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  (void *)((unsigned long)0),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="119" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  (void *)((unsigned long)m_lpContext-&gt;GetThreadNo()),</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="130" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_lpContext);</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="141" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  m_rCtx-&gt;m_iCurrentNum = 0;</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="152" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >  return 0;</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,32.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="0" y="213" width="93" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,214.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,214.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >Block:35613</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="20" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >      line:214~214</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,1.5,214.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#bbd5f0" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+<rect x="93" y="213" width="16" height="31"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,214.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,214.5)"
+font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="9" font-family="Songti SC" font-size="11" font-weight="400" font-style="normal" 
+ >}</text>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,94.5,214.5)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SimSun" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>
