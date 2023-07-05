@@ -1,0 +1,8 @@
+<h2 id="reqmodholdreal">ReqModHoldReal()</h2>
+<p>函数ID: N_3730<br>分支数: 2<br>分支覆盖率: 0.00%<br>调用链：
+ReqModHoldReal()-&gt;size()<br><img alt="Alt Text" src="https://raw.githubusercontent.com/Brook108/abhs/main/InitCoverage//ReqModHoldReal_Img/3730.png" /></p>
+<h2 id="size">size()</h2>
+<p>函数ID: N_6600<br>分支数: 0<br>分支覆盖率: --<br>调用链：
+size()-&gt;<br><img alt="Alt Text" src="https://raw.githubusercontent.com/Brook108/abhs/main/InitCoverage//ReqModHoldReal_Img/6600.png" /></p>
+<h2 id="2">总分支数：2</h2>
+<h2 id="0">已覆盖分支数：0</h2>
