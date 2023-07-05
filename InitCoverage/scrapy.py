@@ -15,11 +15,11 @@ import markdown
 branches_num_map = {}
 
 
-img_url_base = "https://github.com/Brook108/abhs/blob/main/InitCoverage/"
+img_url_base = "https://raw.githubusercontent.com/Brook108/abhs/main/InitCoverage/"
 repo_path = "/Users/xu/work/abhs"
 id_path_func_dict = {}
-id_function_map_file = "01函数ID和函数名和对应.json"
-AMUST_COVERAGE_FILE = "02AMUST覆盖率数据.json"
+id_function_map_file = "01函数ID和函数名对应.json"
+amust_coverage_file = "02AMUST覆盖率数据.json"
 
 cookies = {
     'gdp_user_id': '31546220-86c6-407c-8449-3c79210299e0',
@@ -249,7 +249,7 @@ class InterfaceData:
         self.img_path= ''
 
 def load_branches_num():
-    with open(AMUST_COVERAGE_FILE) as file:
+    with open(amust_coverage_file) as file:
          data = json.load(file)
 
     all_data = data['AllData'][1]
@@ -297,9 +297,9 @@ def preorder_traversal(tree, node, reqData):
     reqData.markdown_content += coverage_info
     reqData.markdown_content += "调用链：" + "\n"
     reqData.markdown_content += method_name+'()->' + method_str + "<br>"
-    reqData.markdown_content += "![Alt Text](" + img_url_base + reqData.img_path + "/?raw=true)"  + "\n"
+    reqData.markdown_content += f"![Alt Text]({img_url_base}/{pngfname})\n"
 
-    #print("picture name: ", pngfname)
+    print("picture name: ", pngfname)
     for child in tree.successors(node):
         preorder_traversal(tree, child, reqData)
 
